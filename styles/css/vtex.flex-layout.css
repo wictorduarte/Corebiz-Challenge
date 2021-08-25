@@ -1,7 +1,11 @@
-.flexCol{
-    background: rgba(0,0,0, 1);
+.flexCol {
+    background: rgba(0, 0, 0, 1);
 }
 
-.header-row{
+.header-row {
     background-color: red;
+}
+
+.flexRow--footer {
+    background-color: #000000;
 }

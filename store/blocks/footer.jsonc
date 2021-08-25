@@ -1,26 +1,185 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+    "footer": {
+        "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    },
+    "footer-layout.desktop": {
+        "children": ["flex-layout.row#footer"]
+    },
+    "footer-layout.mobile": {
+        "children": ["flex-layout.row#footer"]
+    },
+    "flex-layout.row#footer": {
+        "props": {
+            "blockClass": "footer",
+            "horizontalAlign": "center",
+            "fullWidth": true,
+            "paddingTop": 6,
+            "paddingBottom": 6
+        },
+        "children": [
+            "flex-layout.col#social",
+            "flex-layout.col#brasil",
+            "flex-layout.col#argentina",
+            "flex-layout.col#mexico",
+            "flex-layout.col#footer-logo"
+        ]
+    },
+    "flex-layout.col#social": {
+        "props": {
+            "paddingLeft": 8,
+            "horizontalAlign": "left",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.row#follow-us",
+            "flex-layout.row#social-icons"
+        ]
+    },
+    "flex-layout.row#follow-us": {
+        "children": ["rich-text#follow-us"]
+    },
+    "rich-text#follow-us": {
+        "props": {
+            "text": "**Siga a gente**",
+            "blockClass": "footer-text"
+        }
+    },
+    "flex-layout.row#social-icons": {
+        "props": {
+            "preventHorizontalStretch": true
+        },
+        "children": ["image#instagram", "image#facebook", "image#linkedin"]
+    },
+    "image#instagram": {
+        "props": {
+            "blockClass": "footer-image",
+            "maxHeight": 24,
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjY5ODQzNEFEMjhERDExRUFBQUNERjY5NzNCRkIwNTIzIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjY5ODQzNEFFMjhERDExRUFBQUNERjY5NzNCRkIwNTIzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Njk4NDM0QUIyOEREMTFFQUFBQ0RGNjk3M0JGQjA1MjMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Njk4NDM0QUMyOEREMTFFQUFBQ0RGNjk3M0JGQjA1MjMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7J3+33AAAPG0lEQVR42uxdDZRV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",
+            "link": { "url": "https://www.instagram.com/corebizag/" },
+            "title": "Instagram"
+        }
+    },
+    "image#facebook": {
+        "props": {
+            "blockClass": "footer-image",
+            "maxHeight": 24,
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjczQUE4QjMzMjhERDExRUE5MkZDRThDQUUzRTRBMzY5IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjczQUE4QjM0MjhERDExRUE5MkZDRThDQUUzRTRBMzY5Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NzNBQThCMzEyOEREMTFFQTkyRkNFOENBRTNFNEEzNjkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NzNBQThCMzIyOEREMTFFQTkyRkNFOENBRTNFNEEzNjkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5CJ8RmAAADS0lEQVR42uzdzYtNcRjA8XONt9EMQkpeS7GZTCQWbFhSlI0SmmysLWQrbGRBFsROFjZSNvwLytLCVk0K5WXG+4Tr+TVHzUbmnHFu95zz+dSzme7Lued+5869c3/33E63282grHl2AQJCQAgIAYGAEBACQkAgIASEgBAQCAgBISAEBMl8u6CQoZiRmP0xe2JWxyyLGYxZkO/PzozT/22558yfp9NPxFyOuV23HdKxpPWfFsUcjBmLGY3ZUNH1vIpZ4xGoWeGcycPZ2oPrG/QnrDmO5fHs7OF1/hRQ/Q3HXIs5ZVcIqKgtMfdidtgVAioqRfMgZqNdIaCiNsU8jFlnVxTX9n8kDuePPOIRUClXYrbLQEBlHIg5LQEBlbEk5qq7X0BlHc1ftiOgwtJbFOfc9QIqa3fWm/e2BNRQY+52AZW1MuaQu11AZW3OI+pHAwLqf6N9vG2TddyhbXsvbF+Priet7fke8yPm1yxOn1YjnhVQ/z/ajlR8HY9ibsa8iPkYM5XNbqHYRB6cgPrYipi1FV32t5gTMfc9iW6uFM/yii77chvjaVtAQxXd3rcx172Mb77FFV3ueMw7ATXfwooudyJrMR9tnrsvAmIupgQEAkJACAgBgYAQEALqK1Udf6fVh3ir63KOpQXj7+bnqUJ6iyQdJ7FT4rzpPGkdUG3/m123YySuirkRszcrtoY43cj0ebAqlnOkAD7MIaDPMXdiLmY1PEpZ3QK6G3O8oX8NTua3z3OgCjX5SBrbPImu7xNht82rMASEgBAQCAgBISAEBAJCQM3XFRAegUBACAgB2d4W3La6bfRkgwOaFFD1LsW8b2A8z7LpddG1U7c10cn6bPpoq2lR/Ww3Ph1qd1fM+Qq250nMhZK/jH8W1T+N+VTHgOr4sZ7xfIr6WtH2vIx57El08w36JRQQAkJAICAEhIAQEAICASEgBISAQEAICAEhIBAQAkJACAgEhIAQEAJCQCAgBISAEBAICAEhIAQEAkJACAgBgYAQEAJq1G0dEFA7VPUdG6/bHFAdvyujrHRE+Vsxh7Pp76j4H97EHIl5LiDwJwwBISAEBAJCQAgIAYGAEBACQkAgIASEgBAQAgIBISAEhIBAQPTIbwEGAKYeZ32x0yCWAAAAAElFTkSuQmCC",
+            "link": { "url": "https://pt-br.facebook.com/corebiz.ag/" },
+            "title": "Facebook"
+        }
+    },
+    "image#linkedin": {
+        "props": {
+            "blockClass": "footer-image",
+            "maxHeight": 24,
+            "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 17 17'%3E%3Cpath id='linkedin' d='M14.846,0H1.154A1.154,1.154,0,0,0,0,1.154V14.846A1.154,1.154,0,0,0,1.154,16H14.846A1.154,1.154,0,0,0,16,14.846V1.154A1.154,1.154,0,0,0,14.846,0ZM5.675,12.094H3.727V6.232H5.675ZM4.7,5.432H4.689a1.015,1.015,0,1,1,.026-2.025A1.016,1.016,0,1,1,4.7,5.432Zm8,6.662H10.753V8.958c0-.788-.282-1.326-.987-1.326a1.067,1.067,0,0,0-1,.713A1.334,1.334,0,0,0,8.7,8.82v3.273H6.754s.026-5.312,0-5.862H8.7v.83a1.934,1.934,0,0,1,1.756-.968c1.282,0,2.243.838,2.243,2.638Zm0,0' transform='translate(0)' fill='%23fff'%3E%3C/path%3E%3C/svg%3E",
+            "link": {
+                "url": "https://www.linkedin.com/company/corebiz-brasil"
+            },
+            "title": "LinkedIn"
+        }
+    },
+    "flex-layout.col#brasil": {
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.row#country-brasil",
+            "flex-layout.row#address-brasil"
+        ]
+    },
+    "flex-layout.row#country-brasil": {
+        "children": ["rich-text#brasil"]
+    },
+    "rich-text#brasil": {
+        "props": {
+            "text": "**Brasil**",
+            "blockClass": "footer-text"
+        }
+    },
+    "flex-layout.row#address-brasil": {
+        "children": ["rich-text#address-brasil"]
+    },
+    "rich-text#address-brasil": {
+        "props": {
+            "text": "Avenida Andrômeda, 2000.<br />Bloco 6 e 8 Alphaville SP<br />R. Ifigenia Maria de Oliveira,<br />3793 - Jr. Piratininga Franca SP",
+            "blockClass": "footer-text"
+        }
+    },
+
+    "flex-layout.col#argentina": {
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "top",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.row#country-argentina",
+            "flex-layout.row#address-argentina"
+        ]
+    },
+    "flex-layout.row#country-argentina": {
+        "children": ["rich-text#argentina"]
+    },
+    "rich-text#argentina": {
+        "props": {
+            "text": "**Argentina**",
+            "blockClass": "footer-text"
+        }
+    },
+    "flex-layout.row#address-argentina": {
+        "children": ["rich-text#address-argentina"]
+    },
+    "rich-text#address-argentina": {
+        "props": {
+            "text": "Soler 5518, 3 Piso C1425BYF<br />Palermo Hollywood CABA",
+            "blockClass": "footer-text"
+        }
+    },
+
+    "flex-layout.col#mexico": {
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.row#country-mexico",
+            "flex-layout.row#address-mexico"
+        ]
+    },
+    "flex-layout.row#country-mexico": {
+        "children": ["rich-text#mexico"]
+    },
+    "rich-text#mexico": {
+        "props": {
+            "text": "**México**",
+            "blockClass": "footer-text"
+        }
+    },
+    "flex-layout.row#address-mexico": {
+        "children": ["rich-text#address-mexico"]
+    },
+    "rich-text#address-mexico": {
+        "props": {
+            "text": "Blvd. Miguel de Cervantes<br />Saavedra 169, Granada, Miguel<br />Hidalgo, 11520 Ciudad de<br />México, CDMX",
+            "blockClass": "footer-text"
+        }
+    },
+
+    "flex-layout.col#footer-logo": {
+        "props": {
+            "verticalAlign": "middle",
+            "paddingLeft": 8
+        },
+        "children": ["image#footer-logo"]
+    },
+    "image#footer-logo": {
+        "props": {
+            "maxHeight": 85,
+            "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 113 85.311'%3E%3Cg id='Logo_Core' data-name='Logo Core' transform='translate(0 -36.688)'%3E%3Cpath id='Path_6' d='M211.556,463.907a21.051,21.051,0,0,0-15.692,6.7c-4.273,4.42-6.409,10.535-6.409,18.27,0,7.809,2.136,14,6.483,18.491a21.329,21.329,0,0,0,15.913,6.778c5.6,0,10.093-1.547,13.482-4.568a22.47,22.47,0,0,0,6.7-10.314l16.8,6.115a38.128,38.128,0,0,1-12.819,18.491c-6.336,5.157-14.366,7.736-24.164,7.736-11.787,0-21.659-4.052-29.616-12.229s-11.935-18.344-11.935-30.5c0-12.3,3.9-22.469,11.788-30.5S199.695,446.3,211.409,446.3q15.029,0,24.532,7.736a35.341,35.341,0,0,1,12.3,18.639l-17.165,6.262a21.542,21.542,0,0,0-6.336-10.609C221.5,465.381,217.155,463.907,211.556,463.907Z' transform='translate(-170.3 -409.612)' fill='%23fff'%3E%3C/path%3E%3Cpath id='Path_5' d='M872.051,547.542A13.454,13.454,0,0,1,868,537.67a13.62,13.62,0,0,1,4.052-9.946,13.13,13.13,0,0,1,9.872-4.125,14.084,14.084,0,0,1,14.071,14.071,13.133,13.133,0,0,1-4.125,9.872,13.745,13.745,0,0,1-9.946,4.052A13.458,13.458,0,0,1,872.051,547.542Z' transform='translate(-782.996 -429.963)' fill='silver'%3E%3C/path%3E%3C/g%3E%3C/svg%3E"
+        }
     }
-  }
 }

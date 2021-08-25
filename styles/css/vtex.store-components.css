@@ -1,3 +1,8 @@
-.logoContainer{
-    background: rgba(0,0,0,.59);
+.logoContainer {
+    background: rgba(0, 0, 0, 0.59);
+}
+
+.imageElement--footer-image {
+    padding-top: 0.5rem;
+    padding-right: 0.6rem;
 }
