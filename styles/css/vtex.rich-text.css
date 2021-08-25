@@ -1,9 +1,14 @@
-.wrapper{
-    background: rgba(0,0,0, 1);
+.wrapper {
+    background: rgba(0, 0, 0, 1);
 }
 
-.link{
+.link {
     color: white;
     text-decoration: none;
     padding-right: 50px;
+}
+
+.paragraph--footer-text {
+    color: white;
+    margin: 0.5rem 0;
 }
