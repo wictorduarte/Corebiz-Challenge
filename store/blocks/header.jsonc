@@ -58,7 +58,7 @@
     "props":{
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[About Us](/)",
+      "text": "[a corebiz](/)",
       "font": "t-heading-5"
     }
   },
@@ -67,7 +67,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Services](/)",
+      "text": "[serviços](/)",
       "font": "t-heading-5"
     }
   },
@@ -76,8 +76,9 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Contact](/)",
-      "font": "t-heading-5"
+      "text": "[contato](/)",
+      "font": "t-heading-5",
+      "blockClass": "contact"
     }
   },
 
@@ -92,18 +93,24 @@
     "children": [
       "drawer",
       "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#spacer"
+
     ],
     "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "colSizing": "equal"
     }
   },
   "drawer": {
-    "children": []
+    "children": [
+      "rich-text#about-us",
+      "rich-text#services",
+      "rich-text#contact"
+    ]
   }
 }

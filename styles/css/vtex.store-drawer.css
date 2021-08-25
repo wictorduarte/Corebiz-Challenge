@@ -1,0 +1,9 @@
+.openIconContainer{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.menuIcon{
+    color: white;
+    position: fixed;
+    right: 20px;
+}

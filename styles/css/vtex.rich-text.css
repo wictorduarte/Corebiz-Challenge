@@ -2,7 +2,31 @@
     background: rgba(0,0,0, 1);
 }
 
+.wrapper--contact{
+    padding-right: 40px;
+}
+
+.wrapper--title{
+    background-color: transparent;
+    max-width: 25rem;
+    margin-left: 5%;
+    font-size: 8vw;
+    color: #fff;
+    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    text-transform: lowercase;
+    line-height: .8;
+}
+
+.wrapper--subtitle{
+    background-color: transparent;
+    max-width: 25rem;
+    margin-left: 5%;
+    font-size: 2vw;
+}
+
 .link{
+    font-size: 1.1rem;
+    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
     color: white;
     text-decoration: none;
     padding-right: 50px;
