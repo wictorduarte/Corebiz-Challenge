@@ -6,6 +6,35 @@
     background-color: red;
 }
 
+/* Footer */
 .flexRow--footer {
     background-color: #000000;
+}
+
+.flexRowContent--footer-image-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Footer - Layout Mobile */
+@media (max-width: 630px) {
+    .flexRowContent--footer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .flexRow--footer .stretchChildrenWidth {
+        min-width: 113px;
+        width: max-content !important;
+        display: flex;
+        justify-content: left;
+    }
+
+    .flexCol--footer-logo,
+    .flexCol--social-container {
+        padding-left: 0;
+    }
 }
