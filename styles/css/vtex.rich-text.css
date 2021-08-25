@@ -1,0 +1,9 @@
+.wrapper{
+    background: rgba(0,0,0, 1);
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}
