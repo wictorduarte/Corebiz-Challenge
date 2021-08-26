@@ -1,11 +1,24 @@
-.flexCol {
-    background: rgba(0, 0, 0, 1);
+/* Header */
+.flexRow--header-container {
+    background: transparent;
+    z-index: 99;
+    margin-top: 30px;
 }
 
 .header-row {
     background-color: red;
 }
+/* Fim da Header */
+/* Institucional */
+.flexRow--corebiz-institucional-container {
+    background-color: #000;
+    margin-top: -100px;
+}
 
+.flexCol--corebiz-imagem-institucional-container {
+    height: 40rem;
+}
+/* Fim do Institucional */
 /* Footer */
 .flexRow--footer {
     background-color: #000000;

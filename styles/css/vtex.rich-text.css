@@ -1,5 +1,5 @@
 .wrapper {
-    background: rgba(0, 0, 0, 1);
+    background: transparent;
 }
 
 .wrapper--contact{
@@ -35,4 +35,21 @@
 .paragraph--footer-text {
     color: white;
     margin: 0.5rem 0;
+}
+
+/* Institucional */
+.paragraph--corebiz-titulo-institucional {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 0 0 3rem -2px;
+    padding-top: 13rem;
+}
+.paragraph--corebiz-descricao-institucional {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: -42px 0 0 35px;
 }

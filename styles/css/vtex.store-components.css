@@ -1,11 +1,8 @@
-.logoContainer{
-    background: rgba(0,0,0,.59);
-}
-
-.logoLink{
-    background: rgba(0,0,0, 1);
-}
-
 .imageElement--cover{
     object-fit: cover;
+}
+
+.imageElement--imagem-institucional {
+    object-fit: cover;
+    height: 700px;
 }

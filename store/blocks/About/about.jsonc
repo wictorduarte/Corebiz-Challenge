@@ -1,0 +1,60 @@
+{
+  "store.custom#acorebiz": {
+    "blocks": [
+      "responsive-layout.desktop#about"
+      //   "responsive-layout.mobile#about"
+    ]
+  },
+  "responsive-layout.desktop#about": {
+    "children": ["flex-layout.row#institucional-container"]
+  },
+  "flex-layout.row#institucional-container": {
+    "children": [
+      "flex-layout.col#corebiz-texto",
+      "flex-layout.col#corebiz-imagem"
+    ],
+    "props": {
+        "blockClass": "corebiz-institucional-container"
+    }
+  },
+  "flex-layout.col#corebiz-texto": {
+    "children": [
+        "rich-text#corebiz-titulo",
+        "rich-text#corebiz-descricao"
+    ],
+    "props": {
+        "width": "45%"
+    }
+  },
+  "rich-text#corebiz-titulo": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "a corebiz",
+      "blockClass": "corebiz-titulo-institucional"
+    }
+  },
+  "rich-text#corebiz-descricao": {
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "center",
+      "text": "conheça um pouco de nossa\nhistória, nosso crescimento e\nnossa cultura.",
+      "blockClass": "corebiz-descricao-institucional"
+    }
+  },
+  "flex-layout.col#corebiz-imagem": {
+    "children": [
+      "image#corebiz-local"
+    ],
+    "props": {
+        "width": "55%",
+        "blockClass": "corebiz-imagem-institucional-container"
+    }
+  },
+  "image#corebiz-local": {
+    "props": {
+      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg",
+      "blockClass": "imagem-institucional"
+    }
+  }
+}
