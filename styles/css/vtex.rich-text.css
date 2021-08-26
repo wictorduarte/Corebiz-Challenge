@@ -91,6 +91,7 @@
 
 /* Footer */
 .paragraph--footer-text {
+    font-family: 'Manrope', sans-serif;
     color: white;
     margin: 0.5rem 0;
 }
