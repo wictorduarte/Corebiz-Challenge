@@ -1,6 +1,10 @@
 {
     "store.home": {
-        "blocks": ["stack-layout#section-one"]
+        "blocks": [
+            "stack-layout#section-one",
+            "flex-layout.row#section-two",
+            "flex-layout.row#section-three"
+        ]
     },
     "stack-layout#section-one": {
         "children": ["image#background", "flex-layout.row#section-one"]
@@ -108,6 +112,21 @@
         "props": {
             "text": "clientes ativos em<br />diversos países",
             "blockClass": "stats-description"
+        }
+    },
+    "flex-layout.row#section-two": {
+        "props": {
+            "blockClass": "section-two"
+        },
+        "children": ["flex-layout.col#section-two"]
+    },
+    "flex-layout.col#section-two": {
+        "children": ["rich-text#clients-title", "flex-layout.row#partners"]
+    },
+    "rich-text#clients-title": {
+        "props": {
+            "blockClass": "section-two-title",
+            "text": "alguns de nossos<br />principais clientes"
         }
     }
 }

@@ -1,11 +1,20 @@
-.logoContainer{
-    background: rgba(0,0,0,.59);
+.logoContainer {
+    background: rgba(0, 0, 0, 0.59);
 }
 
-.logoLink{
-    background: rgba(0,0,0, 1);
+.logoLink {
+    background: rgba(0, 0, 0, 1);
 }
 
-.imageElement--cover{
+.imageElement--cover {
     object-fit: cover;
+}
+
+/* Home - Seção 2 */
+.imageElement--partner-logo {
+    transition: all 0.3s ease;
+}
+
+.imageElement--partner-logo:hover {
+    opacity: 0.5;
 }
