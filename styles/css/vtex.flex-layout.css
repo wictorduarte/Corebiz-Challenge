@@ -2,8 +2,17 @@
     background: rgba(0, 0, 0, 1);
 }
 
-.header-row {
-    background-color: red;
+.flexCol--section-one {
+    background-color: transparent;
+}
+
+.flexRow--stats-container {
+    padding-top: 1rem;
+    margin-left: 5%;
+}
+
+.flexCol--stats {
+    background-color: transparent;
 }
 
 /* Footer */
