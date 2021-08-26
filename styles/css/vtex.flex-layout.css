@@ -2,8 +2,32 @@
     background: rgba(0, 0, 0, 1);
 }
 
-.header-row {
-    background-color: red;
+.flexCol--section-one {
+    background-color: transparent;
+}
+
+/* Home - Seção 1 - Estatísticas de empresas, colaboradores e clientes */
+.flexRow--stats-container {
+    padding-top: 1rem;
+    margin-left: 5%;
+}
+
+.flexCol--stats {
+    background-color: transparent;
+}
+
+/* Home - Seção 2 */
+.flexRow--section-two {
+    background-color: #000;
+}
+
+.flexRowContent--partners-container {
+    margin-left: -5px;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 3.3rem;
+    justify-content: center;
 }
 
 /* Footer */

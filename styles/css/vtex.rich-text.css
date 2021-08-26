@@ -1,37 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
 .wrapper {
     background: rgba(0, 0, 0, 1);
 }
 
-.wrapper--contact{
+.wrapper--contact {
     padding-right: 40px;
 }
 
-.wrapper--title{
+/* Home - Seção 1 - Título */
+.wrapper--title {
     background-color: transparent;
     max-width: 25rem;
     margin-left: 5%;
     font-size: 8vw;
     color: #fff;
-    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     text-transform: lowercase;
-    line-height: .8;
+    line-height: 0.8;
 }
 
-.wrapper--subtitle{
+.paragraph--title {
+    line-height: 0.8;
+}
+
+/* Home - Seção 1 - Subtítulo */
+.wrapper--subtitle {
     background-color: transparent;
     max-width: 25rem;
     margin-left: 5%;
     font-size: 2vw;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
 }
 
-.link{
+.paragraph--subtitle {
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* Home - Seção 1 - Estatísticas de empresas, colaboradores e clientes */
+.wrapper--stats {
+    background-color: transparent;
+}
+
+.paragraph--stats {
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    color: #f1c233;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.wrapper--stats-description {
+    background-color: transparent;
+}
+
+.paragraph--stats-description {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    color: #ccc;
+    font-size: 0.8rem;
+    letter-spacing: 0.02rem;
+}
+
+/* Home - Seção 2 */
+.wrapper--section-two-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 5rem 1rem 0;
+}
+
+.wrapper--section-two-title .paragraph {
+    line-height: 1.2;
+}
+
+/* Navbar */
+.link {
     font-size: 1.1rem;
-    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
     padding-right: 50px;
 }
 
+/* Footer */
 .paragraph--footer-text {
     color: white;
     margin: 0.5rem 0;

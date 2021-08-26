@@ -1,0 +1,340 @@
+{
+    // Home - Seção 2
+    "flex-layout.row#partners": {
+        "props": {
+            "blockClass": "partners-container",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "image#chillibeans",
+            "image#whirlpool",
+            "image#semparar",
+            "image#motorola",
+            "image#ambev",
+            "image#saraiva",
+            "image#esteelauder",
+            "image#oboticario",
+            "image#epoca",
+            "image#hp",
+            "image#soma",
+            "image#cec",
+            "image#zonasul",
+            "image#aldoconti",
+            "image#philipmorris",
+            "image#simmons",
+            "image#miniso",
+            "image#pardo",
+            "image#lenovo",
+            "image#victorinox",
+            "image#decathlon",
+            "image#singer",
+            "image#nivea",
+            "image#kitchenaid",
+            "image#vans",
+            "image#walmart",
+            "image#jansport",
+            "image#columbia",
+            "image#maccosmetics",
+            "image#fundamenta"
+        ]
+    },
+    "image#chillibeans": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-1.png",
+            "link": {
+                "url": "https://loja.chillibeans.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#whirlpool": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-2.png",
+            "link": {
+                "url": "https://www.compradiretaempresas.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#semparar": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-3.png",
+            "link": {
+                "url": "https://www.semparar.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#motorola": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-4.png",
+            "link": {
+                "url": "https://www.motorola.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#ambev": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-5.png",
+            "link": {
+                "url": "https://www.choppbrahmaexpress.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#saraiva": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-6.png",
+            "link": {
+                "url": "https://www.saraiva.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#esteelauder": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-7.png",
+            "link": {
+                "url": "https://www.esteelauder.com/",
+                "newTab": true
+            }
+        }
+    },
+    "image#oboticario": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-8.png",
+            "link": {
+                "url": "https://www.boticario.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#epoca": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-9.png",
+            "link": {
+                "url": "https://www.epocacosmeticos.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#hp": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-10.png",
+            "link": {
+                "url": "https://store.hp.com/br-pt/default/",
+                "newTab": true
+            }
+        }
+    },
+    "image#soma": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-11.png",
+            "link": {
+                "url": "https://www.farmrio.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#cec": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-12.png",
+            "link": {
+                "url": "https://www.cec.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#zonasul": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-13.png",
+            "link": {
+                "url": "https://www.zonasul.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#aldoconti": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-14.png",
+            "link": {
+                "url": "https://www.aldoconti.com/",
+                "newTab": true
+            }
+        }
+    },
+    "image#philipmorris": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-15.png",
+            "link": {
+                "url": "https://www.pmi.com/markets/brazil/pt/about-us/overview",
+                "newTab": true
+            }
+        }
+    },
+    "image#simmons": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-16.png",
+            "link": {
+                "url": "https://www.simmons.com.ar/",
+                "newTab": true
+            }
+        }
+    },
+    "image#miniso": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-17.png",
+            "link": {
+                "url": "https://www.miniso.com.mx/",
+                "newTab": true
+            }
+        }
+    },
+    "image#pardo": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-18.png",
+            "link": {
+                "url": "https://www.pardo.com.ar/",
+                "newTab": true
+            }
+        }
+    },
+    "image#lenovo": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-19.png",
+            "link": {
+                "url": "https://www.lenovo.com/",
+                "newTab": true
+            }
+        }
+    },
+    "image#victorinox": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-20.png",
+            "link": {
+                "url": "https://www.victorinoxstore.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#decathlon": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-21.png",
+            "link": {
+                "url": "https://www.decathlon.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#singer": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-22.png",
+            "link": {
+                "url": "https://loja.singer.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#nivea": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-23.png",
+            "link": {
+                "url": "https://www.nivea.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#kitchenaid": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-24.png",
+            "link": {
+                "url": "https://www.kitchenaid.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#vans": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-25.png",
+            "link": {
+                "url": "https://www.vans.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#walmart": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-26.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#jansport": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-27.png",
+            "link": {
+                "url": "https://www.jansport.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#columbia": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-28.png",
+            "link": {
+                "url": "https://www.columbiasportswear.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#maccosmetics": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-29.png",
+            "link": {
+                "url": "https://www.maccosmetics.com.br/",
+                "newTab": true
+            }
+        }
+    },
+    "image#fundamenta": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-30.png",
+            "link": {
+                "url": "https://fundamenta.cl/",
+                "newTab": true
+            }
+        }
+    }
+}
