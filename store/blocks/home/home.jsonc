@@ -1,6 +1,10 @@
 {
     "store.home": {
-        "blocks": ["stack-layout#section-one", "flex-layout.row#section-two"]
+        "blocks": [
+            "stack-layout#section-one",
+            "flex-layout.row#section-two",
+            "slider-layout#section-three"
+        ]
     },
     "stack-layout#section-one": {
         "children": ["image#background", "flex-layout.row#section-one"]
@@ -123,6 +127,72 @@
         "props": {
             "blockClass": "section-two-title",
             "text": "alguns de nossos<br />principais clientes"
+        }
+    },
+    "slider-layout#section-three": {
+        "props": {
+            "blockClass": "section-three",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never"
+        },
+        "children": ["info-card#1", "info-card#2", "info-card#3", "info-card#4"]
+    },
+    "info-card#1": {
+        "props": {
+            "id": "infocard-chillibeans",
+            "blockClass": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/images/carousel/case-slider-chillibeans-min.jpg",
+            "headline": "case<br />5x mais receita no E-commerce da ChilliBeans",
+            "callToActionText": "ver case completo",
+            "callToActionUrl": "https://www.corebiz.ag/cases/chillibeans/",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#2": {
+        "props": {
+            "id": "infocard-cec",
+            "blockClass": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/images/carousel/case-slider-cc-min.jpg",
+            "headline": "case<br />elevação do faturamento do ecommerce de c&c",
+            "callToActionText": "ver case completo",
+            "callToActionUrl": "https://www.corebiz.ag/cases/cc/",
+            "textAlignment": "left"
+        }
+    },
+    "info-card#3": {
+        "props": {
+            "id": "infocard-kitchenaid",
+            "blockClass": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/images/carousel/case-slider-kitchenaid-min.jpg",
+            "headline": "case<br />aumento do volume de vendas kitchenaid",
+            "callToActionText": "ver case completo",
+            "callToActionUrl": "https://www.corebiz.ag/cases/kitchenaid/",
+            "textAlignment": "left",
+            "TextModeEnum": "rich-text"
+        }
+    },
+    "info-card#4": {
+        "props": {
+            "id": "infocard-semparar",
+            "blockClass": "info-card-home",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "assets/images/carousel/case-slider-black-friday-min.jpg",
+            "headline": "case<br />maior ação de vendas do semparar na blackfriday",
+            "callToActionText": "ver case completo",
+            "callToActionUrl": "https://www.corebiz.ag/cases/sem-parar/",
+            "textAlignment": "left"
         }
     }
 }
