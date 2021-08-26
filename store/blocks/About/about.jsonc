@@ -6,8 +6,10 @@
     ]
   },
   "responsive-layout.desktop#about": {
-    "children": ["flex-layout.row#institucional-container"]
+    "children": ["flex-layout.row#institucional-container", "flex-layout.row#who-container"]
   },
+
+  //  Seção inicial
   "flex-layout.row#institucional-container": {
     "children": [
       "flex-layout.col#corebiz-texto",
@@ -53,8 +55,43 @@
   },
   "image#corebiz-local": {
     "props": {
-      "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/about-intro-image.jpg",
+      "src": "assets/institucional/institucional-banner.png",
       "blockClass": "imagem-institucional"
     }
+  },
+  // Seção "Who are we"
+  "flex-layout.row#who-container": {
+    "children": [
+      "flex-layout.row#who-texto",
+      "flex-layout.col#corebiz-imagem"
+    ],
+    "props": {
+        "blockClass": "corebiz-who-container"
+    }
+  },
+  "flex-layout.row#who-texto": {
+    "children": [
+        "rich-text#who-titulo",
+        "rich-text#who-descricao"
+    ],
+    "props": {
+      "blockClass": "corebiz-who-textos"
   }
+},
+"rich-text#who-titulo": {
+  "props": {
+    "textAlignment": "left",
+    "textPosition": "left",
+    "text": "a corebiz",
+    "blockClass": "corebiz-titulo-institucional"
+  }
+},
+"rich-text#who-descricao": {
+  "props": {
+    "textAlignment": "left",
+    "textPosition": "center",
+    "text": "conheça um pouco de nossa\nhistória, nosso crescimento e\nnossa cultura.",
+    "blockClass": "corebiz-descricao-institucional"
+  }
+}
 }
