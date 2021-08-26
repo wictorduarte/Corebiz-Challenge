@@ -1,10 +1,6 @@
 {
     "store.home": {
-        "blocks": [
-            "stack-layout#section-one",
-            "flex-layout.row#section-two",
-            "flex-layout.row#section-three"
-        ]
+        "blocks": ["stack-layout#section-one", "flex-layout.row#section-two"]
     },
     "stack-layout#section-one": {
         "children": ["image#background", "flex-layout.row#section-one"]
