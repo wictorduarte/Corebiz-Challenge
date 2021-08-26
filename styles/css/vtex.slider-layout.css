@@ -1,3 +1,7 @@
+.sliderLayoutContainer--section-three {
+    overflow-x: hidden;
+}
+
 .slideChildrenContainer--section-three {
     height: 100vh;
 }
@@ -11,10 +15,10 @@
 
 .sliderLeftArrow--section-three {
     padding: 2rem;
-    left: calc(50% - 705px);
+    left: -2rem;
 }
 
 .sliderRightArrow--section-three {
     padding: 5rem;
-    right: calc(50% - 730px);
+    right: -3.8rem;
 }
