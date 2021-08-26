@@ -1,6 +1,7 @@
 {
     "store.home": {
         "blocks": [
+            "modal-trigger#example",
             "stack-layout#section-one",
             "flex-layout.row#section-two",
             "slider-layout#section-three"
