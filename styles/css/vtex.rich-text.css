@@ -1,38 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
 .wrapper {
     background: transparent;
 }
 
-.wrapper--contact{
+.wrapper--contact {
     padding-right: 40px;
 }
 
-.wrapper--title{
-    background-color: transparent;
-    max-width: 25rem;
-    margin-left: 5%;
-    font-size: 8vw;
-    color: #fff;
-    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
-    text-transform: lowercase;
-    line-height: .8;
-}
-
-.wrapper--subtitle{
-    background-color: transparent;
-    max-width: 25rem;
-    margin-left: 5%;
-    font-size: 2vw;
-}
-
-.link{
+/* Navbar */
+.link {
     font-size: 1.1rem;
-    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-decoration: none;
     padding-right: 50px;
 }
 
+/* Home - Seção 1 - Título */
+.wrapper--title {
+    background-color: transparent;
+    max-width: 25rem;
+    margin-left: 5%;
+    font-size: 8vw;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: lowercase;
+    line-height: 0.8;
+}
+
+.paragraph--title {
+    line-height: 0.8;
+}
+
+/* Home - Seção 1 - Subtítulo */
+.wrapper--subtitle {
+    background-color: transparent;
+    max-width: 25rem;
+    margin-left: 5%;
+    font-size: 2vw;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+.paragraph--subtitle {
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* Home - Seção 1 - Estatísticas de empresas, colaboradores e clientes */
+.wrapper--stats {
+    background-color: transparent;
+}
+
+.paragraph--stats {
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    color: #f1c233;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+.wrapper--stats-description {
+    background-color: transparent;
+}
+
+.paragraph--stats-description {
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    color: #ccc;
+    font-size: 0.8rem;
+    letter-spacing: 0.02rem;
+}
+
+/* Home - Seção 2 */
+.wrapper--section-two-title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 5rem 1rem 0;
+}
+
+.wrapper--section-two-title .paragraph {
+    line-height: 1.2;
+}
+
+/* Home - Seção 4 */
+.wrapper--section-four-title {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 0;
+    margin-left: -8rem;
+}
+
+.wrapper--section-four-title .paragraph {
+    margin: 0;
+}
+
+.wrapper--section-four-subtitle {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    max-width: 26rem;
+    padding: 2rem 0;
+    text-shadow: 0 0 4px #111;
+}
+
+.wrapper--quote-date {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 12rem 0 0 2rem;
+}
+
+/* Footer */
 .paragraph--footer-text {
+    font-family: 'Manrope', sans-serif;
     color: white;
     margin: 0.5rem 0;
 }

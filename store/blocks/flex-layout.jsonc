@@ -1,0 +1,311 @@
+{
+    // Home - Seção 2
+    "flex-layout.row#partners": {
+        "props": {
+            "blockClass": "partners-container",
+            "preventHorizontalStretch": true
+        },
+        "children": [
+            "image#chillibeans",
+            "image#whirlpool",
+            "image#semparar",
+            "image#motorola",
+            "image#ambev",
+            "image#saraiva",
+            "image#esteelauder",
+            "image#oboticario",
+            "image#epoca",
+            "image#hp",
+            "image#soma",
+            "image#cec",
+            "image#zonasul",
+            "image#aldoconti",
+            "image#philipmorris",
+            "image#simmons",
+            "image#miniso",
+            "image#pardo",
+            "image#lenovo",
+            "image#victorinox",
+            "image#decathlon",
+            "image#singer",
+            "image#nivea",
+            "image#kitchenaid",
+            "image#vans",
+            "image#walmart",
+            "image#jansport",
+            "image#columbia",
+            "image#maccosmetics",
+            "image#fundamenta"
+        ]
+    },
+    "image#chillibeans": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-1.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#whirlpool": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-2.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#semparar": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-3.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#motorola": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-4.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#ambev": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-5.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#saraiva": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-6.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#esteelauder": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-7.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#oboticario": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-8.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#epoca": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-9.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#hp": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-10.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#soma": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-11.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#cec": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-12.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#zonasul": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-13.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#aldoconti": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-14.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#philipmorris": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-15.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#simmons": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-16.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#miniso": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-17.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#pardo": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-18.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#lenovo": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-19.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#victorinox": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-20.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#decathlon": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-21.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#singer": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-22.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#nivea": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-23.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#kitchenaid": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-24.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#vans": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-25.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#walmart": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-26.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#jansport": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-27.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#columbia": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-28.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#maccosmetics": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-29.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    },
+    "image#fundamenta": {
+        "props": {
+            "blockClass": "partner-logo",
+            "src": "assets/images/partners/parceiros-30.png",
+            "link": {
+                "url": "#"
+            }
+        }
+    }
+}

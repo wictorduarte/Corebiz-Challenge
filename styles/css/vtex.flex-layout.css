@@ -5,8 +5,43 @@
     margin: 35px 250px 0 0;
 }
 
-.header-row {
-    background-color: red;
+.flexCol--section-one {
+    background-color: transparent;
+}
+
+/* Home - Seção 1 - Estatísticas de empresas, colaboradores e clientes */
+.flexRow--stats-container {
+    padding-top: 1rem;
+    margin-left: 5%;
+}
+
+.flexCol--stats {
+    background-color: transparent;
+}
+
+/* Home - Seção 2 */
+.flexRow--section-two {
+    background-color: #000;
+}
+
+.flexRowContent--partners-container {
+    margin-left: -5px;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 3.3rem;
+    justify-content: center;
+}
+
+/* Home - Seção 4 */
+.flexRow--section-four-flexrow {
+    width: 100%;
+}
+
+.flexCol--section-four-container {
+    background-color: transparent;
+    width: auto !important;
+    margin-left: 10vw;
 }
 /* Fim da Header */
 /* Institucional */
