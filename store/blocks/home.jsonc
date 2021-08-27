@@ -4,7 +4,8 @@
             "modal-trigger#example",
             "stack-layout#section-one",
             "flex-layout.row#section-two",
-            "slider-layout#section-three"
+            "slider-layout#section-three",
+            "stack-layout#section-four"
         ]
     },
     "stack-layout#section-one": {
@@ -152,7 +153,7 @@
             "imageUrl": "assets/images/carousel/case-slider-chillibeans-min.jpg",
             "headline": "case<br />5x mais receita no E-commerce da ChilliBeans",
             "callToActionText": "ver case completo",
-            "callToActionUrl": "https://www.corebiz.ag/cases/chillibeans/",
+            "callToActionUrl": "#",
             "textAlignment": "left"
         }
     },
@@ -165,7 +166,7 @@
             "imageUrl": "assets/images/carousel/case-slider-cc-min.jpg",
             "headline": "case<br />elevação do faturamento do ecommerce de c&c",
             "callToActionText": "ver case completo",
-            "callToActionUrl": "https://www.corebiz.ag/cases/cc/",
+            "callToActionUrl": "#",
             "textAlignment": "left"
         }
     },
@@ -178,7 +179,7 @@
             "imageUrl": "assets/images/carousel/case-slider-kitchenaid-min.jpg",
             "headline": "case<br />aumento do volume de vendas kitchenaid",
             "callToActionText": "ver case completo",
-            "callToActionUrl": "https://www.corebiz.ag/cases/kitchenaid/",
+            "callToActionUrl": "#",
             "textAlignment": "left",
             "TextModeEnum": "rich-text"
         }
@@ -192,8 +193,100 @@
             "imageUrl": "assets/images/carousel/case-slider-black-friday-min.jpg",
             "headline": "case<br />maior ação de vendas do semparar na blackfriday",
             "callToActionText": "ver case completo",
-            "callToActionUrl": "https://www.corebiz.ag/cases/sem-parar/",
+            "callToActionUrl": "#",
             "textAlignment": "left"
+        }
+    },
+    "stack-layout#section-four": {
+        "props": {
+            "blockClass": "section-four-container"
+        },
+        "children": ["image#section-four-bg", "flex-layout.row#section-four"]
+    },
+    "image#section-four-bg": {
+        "props": {
+            "blockClass": "section-four-bg",
+            "src": "assets/images/background/background-media.png"
+        }
+    },
+    "flex-layout.row#section-four": {
+        "props": {
+            "blockClass": "section-four-flexrow"
+        },
+        "children": ["flex-layout.col#section-four"]
+    },
+    "flex-layout.col#section-four": {
+        "props": {
+            "blockClass": "section-four-container"
+        },
+        "children": [
+            "rich-text#section-four-title",
+            "rich-text#section-four-subtitle",
+            "flex-layout.row#media-container"
+        ]
+    },
+    "rich-text#section-four-title": {
+        "props": {
+            "blockClass": "section-four-title",
+            "text": "corebiz na mídia."
+        }
+    },
+    "rich-text#section-four-subtitle": {
+        "props": {
+            "blockClass": "section-four-subtitle",
+            "text": "As atuações na Corebiz no mercado de comércios digitais chamaram a atenção da mídia em muitos aspectos. Veja algumas menções sobre nós em grandes mídias:"
+        }
+    },
+    "flex-layout.row#media-container": {
+        "children": ["stack-layout#media-block-1", "stack-layout#media-block-2"]
+    },
+    "stack-layout#media-block-1": {
+        "children": ["info-card#epoca", "rich-text#quote-date-epoca"]
+    },
+    "image#logo-epoca": {
+        "props": {
+            "src": "assets/images/logos/logo-epoca.png"
+        }
+    },
+    "info-card#epoca": {
+        "props": {
+            "id": "infocard-epoca",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/images/logos/logo-epoca.png",
+            "headline": "vendas online de alimentos aumentam 330% durante pandemia.",
+            "callToActionText": "ver postagem",
+            "callToActionUrl": "#",
+            "blockClass": "infocard-epoca",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#quote-date-epoca": {
+        "props": {
+            "blockClass": "quote-date",
+            "text": "20 de abril, 2020"
+        }
+    },
+    "stack-layout#media-block-2": {
+        "children": ["info-card#msn", "rich-text#quote-date-msn"]
+    },
+    "info-card#msn": {
+        "props": {
+            "id": "infocard-msn",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/images/logos/logo-msn.png",
+            "headline": "de olho na transformação do mercado, corebiz expande operação no brasil.",
+            "callToActionText": "ver postagem",
+            "callToActionUrl": "#",
+            "blockClass": "infocard-msn",
+            "textAlignment": "center"
+        }
+    },
+    "rich-text#quote-date-msn": {
+        "props": {
+            "blockClass": "quote-date",
+            "text": "8 de janeiro, 2020"
         }
     }
 }

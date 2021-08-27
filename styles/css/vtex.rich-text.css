@@ -9,6 +9,15 @@
     padding-right: 40px;
 }
 
+/* Navbar */
+.link {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
 /* Home - Seção 1 - Título */
 .wrapper--title {
     background-color: transparent;
@@ -69,8 +78,8 @@
 
 /* Home - Seção 2 */
 .wrapper--section-two-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.2rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
     color: #fff;
     font-weight: 700;
     padding: 5rem 1rem 0;
@@ -80,13 +89,39 @@
     line-height: 1.2;
 }
 
-/* Navbar */
-.link {
-    font-size: 1.1rem;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-decoration: none;
-    padding-right: 50px;
+/* Home - Seção 4 */
+.wrapper--section-four-title {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 0;
+    margin-left: -8rem;
+}
+
+.wrapper--section-four-title .paragraph {
+    margin: 0;
+}
+
+.wrapper--section-four-subtitle {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    max-width: 26rem;
+    padding: 2rem 0;
+    text-shadow: 0 0 4px #111;
+}
+
+.wrapper--quote-date {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 12rem 0 0 2rem;
 }
 
 /* Footer */

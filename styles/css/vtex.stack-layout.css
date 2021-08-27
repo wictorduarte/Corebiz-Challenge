@@ -1,7 +1,18 @@
-.stackItem{
+.stackItem {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
+}
+
+/* Home - Seção 4 */
+.stackContainer--section-four-container {
+    background-color: #000;
+    height: 1000px;
+    justify-content: start;
+}
+
+.stackItem--section-four-container--section-four-bg {
+    align-items: start;
 }

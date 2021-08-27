@@ -30,6 +30,17 @@
     justify-content: center;
 }
 
+/* Home - Seção 4 */
+.flexRow--section-four-flexrow {
+    width: 100%;
+}
+
+.flexCol--section-four-container {
+    background-color: transparent;
+    width: auto !important;
+    margin-left: 10vw;
+}
+
 /* Footer */
 .flexRow--footer {
     background-color: #000000;
