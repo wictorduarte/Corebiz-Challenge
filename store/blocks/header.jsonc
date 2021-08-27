@@ -76,12 +76,6 @@
         }
     },
 
-    "minicart.v2": {
-        "props": {
-            "blockClass": "minicart"
-        }
-    },
-
     //Area Mobile
     "header-layout.mobile": {
         "children": ["sticky-layout#mobile"]
