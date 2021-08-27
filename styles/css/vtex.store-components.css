@@ -114,5 +114,10 @@
 /* Home - Seção 5 - Miniaturas de notícias */
 .imageElement--news-thumbnail {
     width: 240px;
-    object-fit: contain;
+    height: 120px;
+    transition: all 0.3s ease;
+}
+
+.imageElement--news-thumbnail:hover {
+    opacity: 0.8;
 }

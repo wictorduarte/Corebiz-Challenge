@@ -416,7 +416,8 @@
     "image#news-image-1": {
         "props": {
             "blockClass": "news-thumbnail",
-            "src": "assets/images/news/capa-artigo-Pandemia-e-Marketing-Digital-240x120.jpg"
+            "src": "assets/images/news/capa-artigo-Pandemia-e-Marketing-Digital-240x120.jpg",
+            "link": { "url": "#" }
         }
     },
 
@@ -458,7 +459,8 @@
     "image#news-image-2": {
         "props": {
             "blockClass": "news-thumbnail",
-            "src": "assets/images/news/capa-artigo-Comportamento-de-busca-durante-a-pandemia-240x120.png"
+            "src": "assets/images/news/capa-artigo-Comportamento-de-busca-durante-a-pandemia-240x120.png",
+            "link": { "url": "#" }
         }
     },
 
@@ -500,7 +502,8 @@
     "image#news-image-3": {
         "props": {
             "blockClass": "news-thumbnail",
-            "src": "assets/images/news/Capa-FRancisca-240x120.jpg"
+            "src": "assets/images/news/Capa-FRancisca-240x120.jpg",
+            "link": { "url": "#" }
         }
     }
 }

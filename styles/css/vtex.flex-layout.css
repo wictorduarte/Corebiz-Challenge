@@ -52,6 +52,10 @@
     background-color: transparent;
 }
 
+.flexRowContent--section-five-container {
+    margin-bottom: 2rem;
+}
+
 .flexRow--news-container {
     padding-top: 2rem;
     padding-bottom: 5rem;
@@ -63,6 +67,7 @@
 
 .flexCol--news-info-column {
     background-color: transparent;
+    display: grid;
 }
 
 .flexCol--news-block {
