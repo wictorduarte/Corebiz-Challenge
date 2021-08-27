@@ -46,6 +46,10 @@
     background-color: #000000;
 }
 
+.flexRowContent--countries-container {
+    align-items: flex-start;
+}
+
 .flexRowContent--footer-image-container {
     display: flex;
     flex-direction: row;
