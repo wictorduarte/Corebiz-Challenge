@@ -9,6 +9,9 @@
     background-color: transparent;
 }
 
+.flexRowContent--header-container :global(.vtex-store-components-3-x-logoLink) {
+    background-color: transparent;
+}
 /* Home - Seção 1 - Estatísticas de empresas, colaboradores e clientes */
 .flexRow--stats-container {
     padding-top: 1rem;
@@ -47,13 +50,14 @@
 /* Institucional */
 .flexRow--corebiz-institucional-container {
     background-color: #000;
-    margin-top: -105px;
+    margin-top: -180px;
 }
 
 .flexCol--corebiz-imagem-institucional-container {
     height: 45rem;
     z-index: 10;
 }
+
 /* Fim do Institucional */
 /* Footer */
 .flexRow--footer {

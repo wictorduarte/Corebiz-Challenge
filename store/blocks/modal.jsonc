@@ -1,14 +1,24 @@
 {
-    "modal-trigger#example": {
+  "flex-layout.row#modal": {
+    "children": ["modal-trigger#example" ],
+    "props": {
+      "blockClass": "flex-modal"
+    }
+  },
+  "modal-trigger#example": {
         "children": [
           "rich-text#example",
           "modal-layout#example"
-        ]
+        ],
+        "props": {
+          "blockClass": "botão-modal"
+        }
       },
 
       "rich-text#example": {
         "props": {
-          "text": "Quer receber nossas melhores Ofertas?"
+          "text": "Quer receber nossas melhores Ofertas?",
+          "blockClass": "botão-modal"
         }
       },
 

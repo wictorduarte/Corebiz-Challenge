@@ -1,11 +1,11 @@
 {
     "store.home": {
         "blocks": [
-            "modal-trigger#example",
             "stack-layout#section-one",
             "flex-layout.row#section-two",
             "slider-layout#section-three",
-            "stack-layout#section-four"
+            "stack-layout#section-four",
+            "flex-layout.row#modal"
         ]
     },
     "stack-layout#section-one": {

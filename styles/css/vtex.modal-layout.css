@@ -1,0 +1,10 @@
+.triggerContainer {
+    position: fixed;
+    bottom:0;
+    right:0;
+    background: transparent;
+}
+
+.triggerContainer :global(.vtex-rich-text-0-x-paragraph) {
+    font-weight: 700;
+}
