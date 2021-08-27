@@ -1,7 +1,7 @@
 .triggerContainer {
     position: fixed;
-    bottom:0;
-    right:0;
+    bottom: 1rem;
+    right: 1rem;
     background: transparent;
 }
 
@@ -10,19 +10,21 @@
 }
 
 /*Home - Modal*/
-.triggerContainer--modal-trigger{
+.triggerContainer--modal-trigger {
     background-color: transparent;
+    cursor: pointer;
+    z-index: 3;
 }
 
 /*Home - Modal - Header*/
-.headerContainer--leads-header{
+.headerContainer--leads-header {
     width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.closeIcon--leads-header{
+.closeIcon--leads-header {
     background-color: #000;
     color: #fff;
     border-radius: 5px;

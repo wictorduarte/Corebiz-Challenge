@@ -52,7 +52,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[a corebiz](/)",
+            "text": "[a corebiz](/about)",
             "font": "t-heading-5"
         }
     },

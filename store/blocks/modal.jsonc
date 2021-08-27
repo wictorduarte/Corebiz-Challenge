@@ -2,7 +2,8 @@
     "flex-layout.row#modal": {
         "children": ["modal-trigger#leads"],
         "props": {
-            "blockClass": "flex-modal"
+            "blockClass": "flex-modal",
+            "preventHorizontalStretch": true
         }
     },
     "modal-trigger#leads": {
@@ -14,7 +15,7 @@
     "rich-text#modal-access": {
         "props": {
             "blockClass": "modal-access-leads",
-            "text": "Quer receber nossas melhores Ofertas?",
+            "text": "quer receber nossas melhores ofertas?",
             "textAligment": "CENTER"
         }
     },
