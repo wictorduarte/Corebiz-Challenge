@@ -89,16 +89,19 @@
         "children": ["flex-layout.row#countries"]
     },
     "flex-layout.row#countries": {
+        "props": {
+            "blockClass": "countries-container"
+        },
         "children": [
             "flex-layout.col#brasil",
             "flex-layout.col#argentina",
-            "flex-layout.col#mexico"
+            "flex-layout.col#mexico",
+            "flex-layout.col#chile"
         ]
     },
 
     "flex-layout.col#brasil": {
         "props": {
-            "blockClass": "location-container",
             "horizontalAlign": "left",
             "verticalAlign": "middle",
             "preventVerticalStretch": true
@@ -123,13 +126,12 @@
     "rich-text#address-brasil": {
         "props": {
             "text": "Avenida Andrômeda, 2000.<br />Bloco 6 e 8 Alphaville SP<br />R. Ifigenia Maria de Oliveira,<br />3793 - Jr. Piratininga Franca SP",
-            "blockClass": "footer-text"
+            "blockClass": "footer-address"
         }
     },
 
     "flex-layout.col#argentina": {
         "props": {
-            "blockClass": "location-container",
             "horizontalAlign": "left",
             "verticalAlign": "top",
             "preventVerticalStretch": true
@@ -154,13 +156,12 @@
     "rich-text#address-argentina": {
         "props": {
             "text": "Soler 5518, 3 Piso C1425BYF<br />Palermo Hollywood CABA",
-            "blockClass": "footer-text"
+            "blockClass": "footer-address"
         }
     },
 
     "flex-layout.col#mexico": {
         "props": {
-            "blockClass": "location-container",
             "horizontalAlign": "left",
             "verticalAlign": "middle",
             "preventVerticalStretch": true
@@ -185,7 +186,37 @@
     "rich-text#address-mexico": {
         "props": {
             "text": "Blvd. Miguel de Cervantes<br />Saavedra 169, Granada, Miguel<br />Hidalgo, 11520 Ciudad de<br />México, CDMX",
+            "blockClass": "footer-address"
+        }
+    },
+
+    "flex-layout.col#chile": {
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "middle",
+            "preventVerticalStretch": true
+        },
+        "children": [
+            "flex-layout.row#country-chile",
+            "flex-layout.row#address-chile"
+        ]
+    },
+    "flex-layout.row#country-chile": {
+        "children": ["rich-text#chile"]
+    },
+    "rich-text#chile": {
+        "props": {
+            "text": "**Chile**",
             "blockClass": "footer-text"
+        }
+    },
+    "flex-layout.row#address-chile": {
+        "children": ["rich-text#address-chile"]
+    },
+    "rich-text#address-chile": {
+        "props": {
+            "text": "Roberto del Río 1137,<br/>Providencia. ",
+            "blockClass": "footer-address"
         }
     },
 

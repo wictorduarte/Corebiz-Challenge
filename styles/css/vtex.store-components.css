@@ -122,3 +122,8 @@
 .imageElement--news-thumbnail:hover {
     opacity: 0.8;
 }
+
+/* Footer - Ícones de redes sociais */
+.imageElementLink--footer-image {
+    padding-right: 0.5rem;
+}

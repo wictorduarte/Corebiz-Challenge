@@ -77,7 +77,7 @@
 }
 
 /* Home - Seção 1 - Modal*/
-.wrapper--modal-access-leads{
+.wrapper--modal-access-leads {
     width: 300px;
     display: flex;
     align-items: center;
@@ -90,12 +90,12 @@
     border-radius: 5px;
 }
 
-.wrapper--leads-header-title{
+.wrapper--leads-header-title {
     background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #000;
 }
@@ -269,6 +269,13 @@
 /* Footer */
 .paragraph--footer-text {
     font-family: 'Manrope', sans-serif;
+    color: white;
+    margin: 0.5rem 0;
+}
+
+.paragraph--footer-address {
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.8rem;
     color: white;
     margin: 0.5rem 0;
 }
