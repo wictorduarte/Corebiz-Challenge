@@ -203,17 +203,18 @@
 .wrapper--news-headline-right {
     background-color: transparent;
     font-weight: 800;
-    color: #000;
 }
 
 .link--news-headline-left {
     font-family: 'Manrope', sans-serif;
     font-size: 1.5rem;
+    color: #000;
 }
 
 .link--news-headline-right {
     font-family: 'Manrope', sans-serif;
     font-size: 1.2rem;
+    color: #000;
 }
 
 .paragraph--news-headline-right {
