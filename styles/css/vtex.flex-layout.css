@@ -73,3 +73,19 @@
         padding-left: 0;
     }
 }
+
+/*Página Services*/
+.flexCol--services-row-1-col-1{
+    background-color: #fff!important;
+    padding-bottom: 10%;
+}
+
+.flexCol--services-row-1-col-2{
+    background-image: url("https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg")!important;
+    background-color: #fff!important;
+}
+
+.stretchChildrenWidth--img-footer-1{
+    background-color: #fff!important;
+}
+

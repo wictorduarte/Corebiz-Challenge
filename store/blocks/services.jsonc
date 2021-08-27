@@ -1,0 +1,75 @@
+{
+    "store.custom#services": {
+        "blocks": [
+            "flex-layout.row#services-row-1"
+        ]
+    },
+    "flex-layout.row#services-row-1": {
+        "children": [
+            "flex-layout.col#row-1-col-1",
+            "flex-layout.col#row-1-col-2"
+        ]
+    },
+    "flex-layout.col#row-1-col-1": {
+        "props": {
+            "blockClass": "services-row-1-col-1"
+        },
+        "children": [
+            "rich-text#services-title-1",
+            "rich-text#services-body-1",
+            "rich-text#services-footer-1",
+            "flex-layout.row#row-1-col-1-footer"
+        ]
+    },
+    "rich-text#services-title-1": {
+        "props": {
+            "text": "**we are corebiz.**",
+            "blockClass": "services-title-1"
+        }
+    },
+    "rich-text#services-body-1": {
+        "props": {
+            "text": "**the largest experience, technology and marketing company for commerce in Latin America.**",
+            "blockClass": "services-body-1"
+        }
+    },
+    "rich-text#services-footer-1": {
+        "props": {
+            "text": "**our partners**",
+            "textPosition": "CENTER",
+            "blockClass": "services-footer-1"
+        }
+    },
+    "flex-layout.row#row-1-col-1-footer": {
+        "props": {
+            "blockClass": "row-footer-1",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#img-footer-1-1",
+            "image#img-footer-1-2",
+            "image#img-footer-1-3"
+        ]
+    },
+    "image#img-footer-1-1": {
+        "props" :{
+            "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/vtex.png"
+        }
+    },
+    "image#img-footer-1-2": {
+        "props" :{
+            "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/salesforce.png"
+        }
+    },
+    "image#img-footer-1-3": {
+        "props" :{
+            "src": "https://www.corebiz.ag/wp-content/uploads/2020/06/magento.png"
+        }
+    },
+    "flex-layout.col#row-1-col-2": {
+        "props": {
+            "blockClass": "services-row-1-col-2"
+        },
+        "children": []
+    }
+}
