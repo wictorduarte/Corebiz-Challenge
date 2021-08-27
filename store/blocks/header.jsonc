@@ -1,111 +1,111 @@
 {
-  "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header-layout.desktop": {
-    "children": [
-      "flex-layout.row#desktop"
-    ]
-  },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "colSizing": "equal",
-      "blockClass": "header-container"
+    "header": {
+        "blocks": ["header-layout.desktop", "header-layout.mobile"]
     },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "rich-text#about-us",
-      "rich-text#services",
-      "rich-text#contact"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
-
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
+    "header.full": {
+        "blocks": ["header-layout.desktop", "header-layout.mobile"]
     },
-    "children": ["logo"]
-  },
-  "logo": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-corebiz-global.svg",
-      "width": "110"
-    }
-  },
+    "header-layout.desktop": {
+        "children": ["flex-layout.row#desktop"]
+    },
+    "flex-layout.row#desktop": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "colSizing": "equal",
+            "blockClass": "header-container"
+        },
+        "children": [
+            "flex-layout.col#logo-desktop",
+            "flex-layout.col#spacer",
+            "rich-text#about-us",
+            "rich-text#services",
+            "rich-text#contact",
+            "minicart.v2"
+        ]
+    },
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow"
+        }
+    },
 
-  "rich-text#about-us": {
-    "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "[a corebiz](/)",
-      "font": "t-heading-5"
-    }
-  },
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": ["logo"]
+    },
+    "logo": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "https://www.corebiz.ag/wp-content/uploads/2020/06/logo-corebiz-global.svg",
+            "width": "110"
+        }
+    },
 
-  "rich-text#services": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "[serviços](/services)",
-      "font": "t-heading-5"
-    }
-  },
+    "rich-text#about-us": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[a corebiz](/)",
+            "font": "t-heading-5"
+        }
+    },
 
-  "rich-text#contact": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "[contato](/)",
-      "font": "t-heading-5",
-      "blockClass": "contact"
-    }
-  },
+    "rich-text#services": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[serviços](/services)",
+            "font": "t-heading-5"
+        }
+    },
 
-  //Area Mobile
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer"
+    "rich-text#contact": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[contato](/)",
+            "font": "t-heading-5",
+            "blockClass": "contact"
+        }
+    },
 
-    ],
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true,
-      "colSizing": "equal"
+    "minicart.v2": {
+        "props": {
+            "blockClass": "minicart"
+        }
+    },
+
+    //Area Mobile
+    "header-layout.mobile": {
+        "children": ["sticky-layout#mobile"]
+    },
+    "sticky-layout#mobile": {
+        "children": ["flex-layout.row#mobile"]
+    },
+    "flex-layout.row#mobile": {
+        "children": ["drawer", "logo", "flex-layout.col#spacer"],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "blockClass": "main-header-mobile",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true,
+            "colSizing": "equal"
+        }
+    },
+    "drawer": {
+        "children": [
+            "rich-text#about-us",
+            "rich-text#services",
+            "rich-text#contact"
+        ]
     }
-  },
-  "drawer": {
-    "children": [
-      "rich-text#about-us",
-      "rich-text#services",
-      "rich-text#contact"
-    ]
-  }
 }
