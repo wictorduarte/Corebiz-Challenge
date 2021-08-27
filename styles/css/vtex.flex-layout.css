@@ -41,6 +41,37 @@
     margin-left: 10vw;
 }
 
+/* Home - Seção 5 */
+.flexCol--section-five {
+    background-color: transparent;
+    padding-left: 1rem;
+    padding-right: 6rem;
+}
+
+.flexCol--section-five-container {
+    background-color: transparent;
+}
+
+.flexRow--news-container {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.flexRowContent--news-container {
+    align-items: baseline;
+}
+
+.flexCol--news-info-column {
+    background-color: transparent;
+}
+
+.flexCol--news-block {
+    background-color: transparent;
+    max-width: 560px;
+    margin-left: 5rem;
+    padding-right: 6rem;
+}
+
 /* Footer */
 .flexRow--footer {
     background-color: #000000;

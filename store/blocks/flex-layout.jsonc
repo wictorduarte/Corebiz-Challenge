@@ -307,5 +307,200 @@
                 "url": "#"
             }
         }
+    },
+
+    // Home - Seção 5 - Notícias
+    "flex-layout.row#news-container": {
+        "props": {
+            "blockClass": "news-container"
+        },
+        "children": ["flex-layout.col#news-left", "flex-layout.col#news-right"]
+    },
+    "flex-layout.col#news-left": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": ["rich-text#main-news", "flex-layout.col#news-block-left"]
+    },
+    "rich-text#main-news": {
+        "props": {
+            "blockClass": "main-news",
+            "text": "[Main News](#)"
+        }
+    },
+    "flex-layout.col#news-block-left": {
+        "props": {
+            "blockClass": "news-block"
+        },
+        "children": [
+            "flex-layout.row#news-info-row",
+            "rich-text#news-headline-left",
+            "rich-text#news-text"
+        ]
+    },
+    "flex-layout.row#news-info-row": {
+        "props": {
+            "blockClass": "news-info-row"
+        },
+        "children": ["rich-text#news-category-left", "rich-text#news-date-left"]
+    },
+    "rich-text#news-category-left": {
+        "props": {
+            "blockClass": "news-category",
+            "text": "[#cases](#)"
+        }
+    },
+    "rich-text#news-date-left": {
+        "props": {
+            "blockClass": "news-date-row",
+            "text": "14 de setembro, 2020"
+        }
+    },
+    "rich-text#news-headline-left": {
+        "props": {
+            "blockClass": "news-headline-left",
+            "text": "[Resultados surpreendentes conquistados pela Loja da Ruiva ao migrar para a VTEX](#)"
+        }
+    },
+    "rich-text#news-text": {
+        "props": {
+            "blockClass": "news-text",
+            "text": "Algumas literaturas já preconizam que todo o negócio deve olhar com os olhos de seus clientes (foco no foco do cliente), que basicamente é entender o que ele preconiza para…"
+        }
+    },
+    "flex-layout.col#news-right": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": [
+            "flex-layout.row#news-block-right-1",
+            "flex-layout.row#news-block-right-2",
+            "flex-layout.row#news-block-right-3"
+        ]
+    },
+    "flex-layout.row#news-block-right-1": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": ["flex-layout.col#news-info-column-1", "image#news-image-1"]
+    },
+    "flex-layout.col#news-info-column-1": {
+        "props": {
+            "blockClass": "news-info-column",
+            "width": "60%"
+        },
+        "children": [
+            "rich-text#news-category-right-1",
+            "rich-text#news-headline-right-1",
+            "rich-text#news-date-right-1"
+        ]
+    },
+    "rich-text#news-category-right-1": {
+        "props": {
+            "blockClass": "news-category",
+            "text": "[#mercadodigital | semcategoria](#)"
+        }
+    },
+    "rich-text#news-headline-right-1": {
+        "props": {
+            "blockClass": "news-headline-right",
+            "text": "[Pandemia e o Marketing Digital](#)"
+        }
+    },
+    "rich-text#news-date-right-1": {
+        "props": {
+            "blockClass": "news-date-col",
+            "text": "5 de maio, 2020"
+        }
+    },
+    "image#news-image-1": {
+        "props": {
+            "blockClass": "news-thumbnail",
+            "src": "assets/images/news/capa-artigo-Pandemia-e-Marketing-Digital-240x120.jpg"
+        }
+    },
+
+    "flex-layout.row#news-block-right-2": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": ["flex-layout.col#news-info-column-2", "image#news-image-2"]
+    },
+    "flex-layout.col#news-info-column-2": {
+        "props": {
+            "blockClass": "news-info-column",
+            "width": "60%"
+        },
+        "children": [
+            "rich-text#news-category-right-2",
+            "rich-text#news-headline-right-2",
+            "rich-text#news-date-right-2"
+        ]
+    },
+    "rich-text#news-category-right-2": {
+        "props": {
+            "blockClass": "news-category",
+            "text": "[#semcategoria](#)"
+        }
+    },
+    "rich-text#news-headline-right-2": {
+        "props": {
+            "blockClass": "news-headline-right",
+            "text": "[Comportamento de buscas durante a Pandemia](#)"
+        }
+    },
+    "rich-text#news-date-right-2": {
+        "props": {
+            "blockClass": "news-date-col",
+            "text": "23 de março, 2020"
+        }
+    },
+    "image#news-image-2": {
+        "props": {
+            "blockClass": "news-thumbnail",
+            "src": "assets/images/news/capa-artigo-Comportamento-de-busca-durante-a-pandemia-240x120.png"
+        }
+    },
+
+    "flex-layout.row#news-block-right-3": {
+        "props": {
+            "blockClass": "section-five-container"
+        },
+        "children": ["flex-layout.col#news-info-column-3", "image#news-image-3"]
+    },
+    "flex-layout.col#news-info-column-3": {
+        "props": {
+            "blockClass": "news-info-column",
+            "width": "60%"
+        },
+        "children": [
+            "rich-text#news-category-right-3",
+            "rich-text#news-headline-right-3",
+            "rich-text#news-date-right-3"
+        ]
+    },
+    "rich-text#news-category-right-3": {
+        "props": {
+            "blockClass": "news-category",
+            "text": "[#cases](#)"
+        }
+    },
+    "rich-text#news-headline-right-3": {
+        "props": {
+            "blockClass": "news-headline-right",
+            "text": "[Redesign de projeto VTEX na Francisca Jóias garante resultados surpreendentes de conversão.](#)"
+        }
+    },
+    "rich-text#news-date-right-3": {
+        "props": {
+            "blockClass": "news-date-col",
+            "text": " 17 de fevereiro, 2020"
+        }
+    },
+    "image#news-image-3": {
+        "props": {
+            "blockClass": "news-thumbnail",
+            "src": "assets/images/news/Capa-FRancisca-240x120.jpg"
+        }
     }
 }

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
 .wrapper {
     background: rgba(0, 0, 0, 1);
@@ -122,6 +122,110 @@
     font-weight: 600;
     color: #fff;
     margin: 12rem 0 0 2rem;
+}
+
+/* Home - Seção 5 */
+.wrapper--section-five-title {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    color: #000;
+    font-weight: 700;
+    padding: 0 0 2rem;
+    width: 100vw;
+}
+
+.wrapper--section-five-title .paragraph {
+    margin-bottom: 0;
+}
+
+.wrapper--section-five-subtitle {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    color: #000;
+    font-weight: 600;
+    max-width: 370px;
+}
+
+.paragraph--section-five-subtitle {
+    margin: 0;
+}
+
+.wrapper--main-news {
+    background-color: transparent;
+}
+
+.paragraph--main-news {
+    line-height: 1;
+    margin-top: 0;
+}
+
+.link--main-news {
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+    color: #000;
+}
+
+.wrapper--news-category {
+    background-color: transparent;
+}
+
+.paragraph--news-category {
+    line-height: 1;
+}
+
+.link--news-category {
+    color: #f1c233;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+.container--news-date-row {
+    justify-content: flex-end;
+}
+
+.wrapper--news-date-row,
+.wrapper--news-date-col {
+    background-color: transparent;
+    margin: 0;
+    color: #aaa;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.wrapper--news-headline-left,
+.wrapper--news-headline-right {
+    background-color: transparent;
+    font-weight: 800;
+    color: #000;
+}
+
+.link--news-headline-left {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+}
+
+.link--news-headline-right {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.2rem;
+}
+
+.paragraph--news-headline-right {
+    margin: 0;
+}
+
+.wrapper--news-text {
+    background-color: transparent;
+    color: #000;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
 }
 
 /* Footer */

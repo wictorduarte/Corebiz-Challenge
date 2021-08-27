@@ -5,7 +5,8 @@
             "stack-layout#section-one",
             "flex-layout.row#section-two",
             "slider-layout#section-three",
-            "stack-layout#section-four"
+            "stack-layout#section-four",
+            "flex-layout.row#section-five"
         ]
     },
     "stack-layout#section-one": {
@@ -287,6 +288,31 @@
         "props": {
             "blockClass": "quote-date",
             "text": "8 de janeiro, 2020"
+        }
+    },
+    "flex-layout.row#section-five": {
+        "children": ["flex-layout.col#section-five"]
+    },
+    "flex-layout.col#section-five": {
+        "props": {
+            "blockClass": "section-five"
+        },
+        "children": [
+            "rich-text#section-five-title",
+            "rich-text#section-five-subtitle",
+            "flex-layout.row#news-container"
+        ]
+    },
+    "rich-text#section-five-title": {
+        "props": {
+            "blockClass": "section-five-title",
+            "text": "notícias e conteúdos."
+        }
+    },
+    "rich-text#section-five-subtitle": {
+        "props": {
+            "blockClass": "section-five-subtitle",
+            "text": "Veja abaixo as principais notícias e conteúdos do blog da Corebiz. Se preferir acesse ao blog e fique por dentro."
         }
     }
 }
