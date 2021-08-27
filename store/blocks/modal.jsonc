@@ -1,83 +1,94 @@
 {
-    "modal-trigger#example": {
-        "children": [
-          "rich-text#example",
-          "modal-layout#example"
-        ]
-      },
-
-      "rich-text#example": {
+    "modal-trigger#leads": {
         "props": {
-          "text": "Quer receber nossas melhores Ofertas?"
+            "blockClass": "modal-trigger"
+        },
+        "children": [
+            "rich-text#modal-access",
+            "modal-layout#leads"
+        ]
+    },
+    "rich-text#modal-access": {
+        "props": {
+            "blockClass": "modal-access-leads",
+            "text": "Quer receber nossas melhores Ofertas?",
+            "textAligment": "CENTER"
         }
-      },
-
-      "modal-layout#example": {
+    },
+    "modal-layout#leads": {
+        "props": {
+            "disableEscapeKeyDown": true,
+            "blockClass": "modal-leads"
+        },
         "children": [
-          "form"
+            "modal-header",
+            "modal-content"
         ]
-      },
-
-      "form": {
+    },
+    "modal-header": {
         "props": {
-            "entity": "clients",
-            "schema": "person"
+            "blockClass": "leads-header",
+            "showCloseButton": true,
+            "iconCloseSize": 30
         },
         "children": [
-            "rich-text#formTitle",
-            "form-input.text#name",
-            "form-input.text#phone",
-            "form-field-group#address",
-            "form-submit"
-          ],
-          "blocks": ["form-success"]
-        },
-        "form-success": {
-          "children": [
-            "rich-text#successSubmit"
-          ]
-        },
-        "rich-text#formTitle": {
+            "rich-text#modal-title"
+        ]
+    },
+    "rich-text#modal-title": {
         "props": {
+            "blockClass": "leads-header-title",
             "text": "Preencha o formulário abaixo",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textAlignment": "CENTER"
         }
+    },
+    "modal-content": {
+        "props": {
+            "blockClass": "leads-content"
         },
-        "rich-text#successSubmit": {
-          "props": {
-            "text": "Cadastro realizado com sucesso",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-          }
+        "children": [
+            "newsletter-form"
+        ]
+    },
+    "newsletter-form": {
+        "props": {
+            "blockClass": "leads-content-form"
         },
-        "form-input.text#name": {
-          "props": {
-            "pointer": "#/properties/name",
-            "inputType": "input",
-            "label": "Nome",
-            "placeholder": "Informe seu nome"
-          }
-        },
-        "form-input.text#phone": {
-          "props": {
-            "pointer": "#/properties/phone",
-            "inputType": "input",
-            "label": "Telefone",
-            "placeholder": "Informe seu telefone aqui"
-          }
-        },
-        "form-field-group#address": {
-          "props": {
-            "pointer": "#/properties/address",
-            "inputType": "input",
-            "label": "E-mail",
-            "placeholder":"Informe seu e-mail aqui"
-          }
-        },
-        "form-submit": {
-          "props": {
-            "label": "Submit"
-          }
+        "children": [
+            "newsletter-input-name",
+            "newsletter-input-email",
+            "newsletter-input-phone",
+            "newsletter-submit"
+        ]
+    },
+    "newsletter-input-name": {
+        "props": {
+            "blockClass": "leads-form-name",
+            "inputLabel": "Nome",
+            "placeholderText": "Digite aqui seu nome",
+            "errorMessage": "campo vazio ou nome inválido"
         }
+    },
+    "newsletter-input-email": {
+        "props": {
+            "blockClass": "leads-form-email",
+            "inputLabel": "E-mail",
+            "placeholderText": "Digite aqui seu e-mail",
+            "errorMessage": "campo vazio ou e-mail inválido"
+        }
+    },
+    "newsletter-input-phone": {
+        "props": {
+            "blockClass": "leads-form-phone",
+            "inputLabel": "Telefone",
+            "placeholderText": "Digite aqui seu telefone",
+            "errorMessage": "campo vazio ou inválido"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "blockClass": "leads-form-submit",
+            "submitButtonLabel": "Receber ofertas"
+        }
+    }
 }
