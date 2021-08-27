@@ -1,11 +1,17 @@
-.flexCol {
-    background: rgba(0, 0, 0, 1);
+/* Header */
+.flexRow--header-container {
+    background: transparent;
+    z-index: 99;
+    margin: 35px 250px 0 0;
 }
 
 .flexCol--section-one {
     background-color: transparent;
 }
 
+.flexRowContent--header-container :global(.vtex-store-components-3-x-logoLink) {
+    background-color: transparent;
+}
 /* Home - Seção 1 - Estatísticas de empresas, colaboradores e clientes */
 .flexRow--stats-container {
     padding-top: 1rem;
@@ -30,6 +36,29 @@
     justify-content: center;
 }
 
+/* Home - Seção 4 */
+.flexRow--section-four-flexrow {
+    width: 100%;
+}
+
+.flexCol--section-four-container {
+    background-color: transparent;
+    width: auto !important;
+    margin-left: 10vw;
+}
+/* Fim da Header */
+/* Institucional */
+.flexRow--corebiz-institucional-container {
+    background-color: #000;
+    margin-top: -180px;
+}
+
+.flexCol--corebiz-imagem-institucional-container {
+    height: 45rem;
+    z-index: 10;
+}
+
+/* Fim do Institucional */
 /* Footer */
 .flexRow--footer {
     background-color: #000000;

@@ -2,11 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
 
 .wrapper {
-    background: rgba(0, 0, 0, 1);
+    background: transparent;
 }
 
 .wrapper--contact {
     padding-right: 40px;
+}
+
+/* Navbar */
+.link {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
 }
 
 /* Home - Seção 1 - Título */
@@ -93,8 +102,8 @@
 
 /* Home - Seção 2 */
 .wrapper--section-two-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.2rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
     color: #fff;
     font-weight: 700;
     padding: 5rem 1rem 0;
@@ -104,23 +113,49 @@
     line-height: 1.2;
 }
 
-/* Navbar */
-.link {
-    font-size: 1.1rem;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    text-decoration: none;
-    padding-right: 50px;
+/* Home - Seção 4 */
+.wrapper--section-four-title {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 0;
+    margin-left: -8rem;
+}
+
+.wrapper--section-four-title .paragraph {
+    margin: 0;
+}
+
+.wrapper--section-four-subtitle {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    max-width: 26rem;
+    padding: 2rem 0;
+    text-shadow: 0 0 4px #111;
+}
+
+.wrapper--quote-date {
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 12rem 0 0 2rem;
 }
 
 /* Footer */
 .paragraph--footer-text {
+    font-family: 'Manrope', sans-serif;
     color: white;
     margin: 0.5rem 0;
 }
 
-/*Página Services*/
-
+/* Página Services */
 .wrapper--services-title-1 {
     max-width: 25rem;
     margin-left: 15%;
@@ -163,4 +198,22 @@
     color: #000;
     font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
     line-height: .8;
+}
+
+/* Institucional */
+.paragraph--corebiz-titulo-institucional {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 0 0 3rem -2px;
+    padding-top: 13rem;
+}
+
+.paragraph--corebiz-descricao-institucional {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: -42px 0 0 35px;
 }
