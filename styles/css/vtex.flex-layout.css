@@ -1,10 +1,18 @@
-.flexCol {
-    background: rgba(0, 0, 0, 1);
+/* Header */
+.flexRow--header-container {
+    background: transparent;
+    z-index: 99;
+    margin: 35px 250px 0 0;
 }
 
 .flexCol--section-one {
     background-color: transparent;
 }
+
+.flexRowContent--header-container :global(.vtex-store-components-3-x-logoLink) {
+    background-color: transparent;
+}
+/* Fim da Header */
 
 /* Home - Seção 1 - Estatísticas de empresas, colaboradores e clientes */
 .flexRow--stats-container {
@@ -113,3 +121,30 @@
         padding-left: 0;
     }
 }
+
+/*Página Services*/
+.flexCol--services-row-1-col-1 {
+    background-color: #fff !important;
+    padding-bottom: 10%;
+}
+
+.flexCol--services-row-1-col-2 {
+    background-image: url('https://www.corebiz.ag/wp-content/uploads/2020/06/image-video-somos-min.jpg') !important;
+    background-color: #fff !important;
+}
+
+.stretchChildrenWidth--img-footer-1 {
+    background-color: #fff !important;
+}
+
+/* Institucional */
+.flexRow--corebiz-institucional-container {
+    background-color: #000;
+    margin-top: -180px;
+}
+
+.flexCol--corebiz-imagem-institucional-container {
+    height: 45rem;
+    z-index: 10;
+}
+/* Fim do Institucional */

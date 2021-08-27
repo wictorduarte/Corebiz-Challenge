@@ -6,6 +6,9 @@
     justify-content: left;
 }
 
+.stackItem--image-background {
+    margin-top: -100px;
+}
 /* Home - Seção 4 */
 .stackContainer--section-four-container {
     background-color: #000;

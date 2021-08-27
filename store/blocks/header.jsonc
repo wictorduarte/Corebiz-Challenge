@@ -7,14 +7,8 @@
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "flex-layout.row#desktop"
     ]
-  },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -23,7 +17,8 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "colSizing": "equal"
+      "colSizing": "equal",
+      "blockClass": "header-container"
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -67,7 +62,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[serviços](/)",
+      "text": "[serviços](/services)",
       "font": "t-heading-5"
     }
   },

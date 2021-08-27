@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
 .wrapper {
-    background: rgba(0, 0, 0, 1);
+    background: transparent;
 }
 
 .wrapper--contact {
@@ -278,4 +278,67 @@
     font-size: 0.8rem;
     color: white;
     margin: 0.5rem 0;
+}
+
+/* Página Services */
+.wrapper--services-title-1 {
+    max-width: 25rem;
+    margin-left: 15%;
+    font-size: 3vw;
+    background-color: #fff !important;
+    color: #000;
+    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    text-transform: lowercase;
+    line-height: 0.8;
+}
+
+.container--services-title-1 {
+    background-color: #fff;
+}
+
+.wrapper--services-body-1 {
+    max-width: 25rem;
+    margin-left: 15%;
+    font-size: 2vw;
+    background-color: #fff !important;
+    color: #666666;
+    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    line-height: 0.8;
+}
+
+.container--services-body-1 {
+    background-color: #fff;
+}
+
+.container--services-footer-1 {
+    background-color: #fff;
+}
+
+.wrapper--services-footer-1 {
+    max-width: 25rem;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-size: 1.3vw;
+    background-color: #fff !important;
+    color: #000;
+    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    line-height: 0.8;
+}
+
+/* Institucional */
+.paragraph--corebiz-titulo-institucional {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 0 0 3rem -2px;
+    padding-top: 13rem;
+}
+
+.paragraph--corebiz-descricao-institucional {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: -42px 0 0 35px;
 }
