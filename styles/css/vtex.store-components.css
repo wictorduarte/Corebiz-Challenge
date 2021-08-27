@@ -1,4 +1,4 @@
-.imageElement--cover{
+.imageElement--cover {
     object-fit: cover;
 }
 
@@ -14,6 +14,11 @@
 .imageElement--cover {
     object-fit: cover;
     height: 700px;
+}
+
+/* Home - Seção 1 */
+.imageElement--image-background {
+    min-width: 120%;
 }
 
 /* Home - Seção 2 */

@@ -7,7 +7,8 @@
 }
 
 .stackItem--image-background {
-    margin-top: -100px;
+    margin-top: -105px;
+    overflow: hidden;
 }
 /* Home - Seção 4 */
 .stackContainer--section-four-container {
