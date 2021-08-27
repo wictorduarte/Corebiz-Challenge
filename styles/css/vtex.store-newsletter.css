@@ -1,0 +1,19 @@
+/*Modal Content*/
+.nameInputContainer--leads-form-name{
+    margin-bottom: 2px;
+}
+
+.emailInputContaine--leads-form-email{
+    margin-bottom: 2px;
+}
+
+.phoneInputContaine--leads-form-phone{
+    margin-bottom: 2px;
+}
+
+.formSubmitContainer--leads-form-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

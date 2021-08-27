@@ -8,3 +8,25 @@
 .triggerContainer :global(.vtex-rich-text-0-x-paragraph) {
     font-weight: 700;
 }
+
+/*Home - Modal*/
+.triggerContainer--modal-trigger{
+    background-color: transparent;
+}
+
+/*Home - Modal - Header*/
+.headerContainer--leads-header{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closeIcon--leads-header{
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
