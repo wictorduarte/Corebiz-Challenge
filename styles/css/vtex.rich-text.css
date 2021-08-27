@@ -118,3 +118,49 @@
     color: white;
     margin: 0.5rem 0;
 }
+
+/*Página Services*/
+
+.wrapper--services-title-1 {
+    max-width: 25rem;
+    margin-left: 15%;
+    font-size: 3vw;
+    background-color: #fff!important;
+    color: #000;
+    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    text-transform: lowercase;
+    line-height: .8;
+}
+
+.container--services-title-1 {
+    background-color: #fff;
+}
+
+.wrapper--services-body-1 {
+    max-width: 25rem;
+    margin-left: 15%;
+    font-size: 2vw;
+    background-color: #fff!important;
+    color: #666666;
+    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    line-height: .8;
+}
+
+.container--services-body-1 {
+    background-color: #fff;
+}
+
+.container--services-footer-1 {
+    background-color: #fff;
+}
+
+.wrapper--services-footer-1 {
+    max-width: 25rem;
+    margin-left: 15%;
+    margin-top: 15%;
+    font-size: 1.3vw;
+    background-color: #fff!important;
+    color: #000;
+    font-family: url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+    line-height: .8;
+}
