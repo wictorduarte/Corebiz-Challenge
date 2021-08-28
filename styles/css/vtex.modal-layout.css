@@ -18,7 +18,7 @@
 
 /*Home - Modal - Header*/
 .headerContainer--leads-header {
-    width: 600px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,4 +31,28 @@
     position: absolute;
     top: 5px;
     right: 5px;
+}
+.contentContainer--leads-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contentContainer--leads-content :global(.vtex-form-input-name),
+.contentContainer--leads-content :global(.vtex-form-input-email),
+.contentContainer--leads-content :global(.vtex-form-input-tel) {
+    margin: 0 0 20px 0;
+    width: 300px;
+    height: 25px;
+}
+.contentContainer--leads-content :global(.vtex-form-button) {
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    color: white;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
 }
