@@ -45,47 +45,6 @@
         "props": {
             "blockClass": "leads-content"
         },
-        "children": ["newsletter-form"]
-    },
-    "newsletter-form": {
-        "props": {
-            "blockClass": "leads-content-form"
-        },
-        "children": [
-            "newsletter-input-name",
-            "newsletter-input-email",
-            "newsletter-input-phone",
-            "newsletter-submit"
-        ]
-    },
-    "newsletter-input-name": {
-        "props": {
-            "blockClass": "leads-form-name",
-            "inputLabel": "Nome",
-            "placeholderText": "Digite aqui seu nome",
-            "errorMessage": "campo vazio ou nome inválido"
-        }
-    },
-    "newsletter-input-email": {
-        "props": {
-            "blockClass": "leads-form-email",
-            "inputLabel": "E-mail",
-            "placeholderText": "Digite aqui seu e-mail",
-            "errorMessage": "campo vazio ou e-mail inválido"
-        }
-    },
-    "newsletter-input-phone": {
-        "props": {
-            "blockClass": "leads-form-phone",
-            "inputLabel": "Telefone",
-            "placeholderText": "Digite aqui seu telefone",
-            "errorMessage": "campo vazio ou inválido"
-        }
-    },
-    "newsletter-submit": {
-        "props": {
-            "blockClass": "leads-form-submit",
-            "submitButtonLabel": "Receber ofertas"
-        }
+        "children": ["leadform"]
     }
 }
