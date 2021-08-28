@@ -1,0 +1,90 @@
+{
+  "store.custom#servicos": {
+    "blocks": [
+      "rich-text",
+      "search-result-layout.customQuery#servicos"
+
+    ]
+  },
+  "rich-text": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "/  **Página de Serviços** - Em Construção  /",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  
+  "search-result-layout.customQuery#servicos": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItensPerPage": 6
+       // "queryFiel": 2,
+       // "mapField":"productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#servico"
+
+    ]
+  },
+  "search-result-layout.desktop#servico": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#searchbread": {},
+  "flex-layout.row#searchtitle": {},
+  "flex-layout.row#result": {
+    "children": [
+      "search-content#servico"
+    ]
+  },
+  "search-content#servico": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+
+  "gallery#lp": {
+    "props": {
+      "layouts": [ //40:16
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itensPerRow": {
+            "(min-width:1300px)": 2,
+            "desktop": 2,
+            "tablet": 2,
+            "phone": 1
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itensPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#lp",
+      "GridSummary": "product-summary.shelf#lp"
+    }
+  },
+  "product-summary.shelf#lp": {
+    "children": [
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ]
+  }
+}
