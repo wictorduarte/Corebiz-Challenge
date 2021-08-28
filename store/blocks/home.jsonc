@@ -4,6 +4,7 @@
             "stack-layout#section-one",
             "flex-layout.row#section-two",
             "slider-layout#section-three",
+            "corebiz-framework",
             "stack-layout#section-four",
             "flex-layout.row#section-five",
             "flex-layout.row#modal"

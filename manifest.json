@@ -48,7 +48,8 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.store-image": "0.x",
     "vtex.modal-layout": "0.x",
-    "vtex.store-newsletter": "1.x"
+    "vtex.store-newsletter": "1.x",
+    "hiringcoders202130.corebiz-framework": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
