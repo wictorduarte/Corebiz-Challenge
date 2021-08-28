@@ -75,7 +75,15 @@
             "blockClass": "contact"
         }
     },
-
+    "minicart.v2": {
+		"props": {
+			"quantityDisplay": "always",
+			"maxDrawerWidth": 585,
+			"blockClass": "minicart",
+			"customPixelEventName": "addToCart"
+		},
+		"children": ["minicart-base-content"]
+	},
     //Area Mobile
     "header-layout.mobile": {
         "children": ["sticky-layout#mobile"]

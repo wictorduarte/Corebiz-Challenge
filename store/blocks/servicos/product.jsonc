@@ -19,12 +19,17 @@
       "preventVerticalStretch": true,
       "verticalAlign": "middle"
     },
-    "children": ["product-name", "product-price", "buy-button"]
+    "children": ["product-name", "product-price", "add-to-cart-button"]
   },
   "product-price": {
     "props": {
       "showSavings": true,
       "showListPrice": true
     }
-  }
+  },
+  "add-to-cart-button": {
+		"props": {
+			"text": "Adicionar ao Carrinho"
+		}
+	}
 }
