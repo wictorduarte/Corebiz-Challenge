@@ -35,14 +35,14 @@ const LeadForm: FC = () => {
     <div className="form-container">
       {!formSend && 
         <form onSubmit={handleAddLead}>
-          <input type="text" name="nome" placeholder="Nome" value={newLeadName} required onChange={handleInputName} />
-          <input type="email" name="email" placeholder="E-mail" value={newLeadEmail} required onChange={handleInputEmail} />
-          <input type="tel" name="telefone" placeholder="Telefone" value={newLeadTel} required onChange={handleInputTel} />
-          <input type="submit" value="Quero receber novidades" />
+          <input type="text" className="vtex-form-input-name" name="nome" placeholder="Nome" value={newLeadName} required onChange={handleInputName} />
+          <input type="email" className="vtex-form-input-email" name="email" placeholder="E-mail" value={newLeadEmail} required onChange={handleInputEmail} />
+          <input type="tel" className="vtex-form-input-tel" name="telefone" placeholder="Telefone" value={newLeadTel} required onChange={handleInputTel} />
+          <input type="submit" className="vtex-form-button" value="Quero receber novidades" />
         </form>
       }
       {formSend && 
-        <h4>Agradecemos o seu interesse!</h4>
+        <h4 className="vtex-form-success">Agradecemos o seu interesse!</h4>
       }
     </div>
   )
