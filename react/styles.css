@@ -1,0 +1,261 @@
+/* Container da seção de frameworks */
+.container {
+    background-image: url('https://www.corebiz.ag/wp-content/themes/corebiz-global/assets/images/our-framework-background.png');
+    background-repeat: no-repeat;
+    background-position: -7rem 6rem;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 1rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.flexColumn {
+    width: 50%;
+}
+
+/* Título da Seção */
+.mainTitle {
+    max-width: 28rem;
+    font-size: 3rem;
+}
+
+/* Texto padrão da seção */
+.frameworkTextIntro {
+    max-width: 25rem;
+    font-size: 0.8rem;
+    line-height: 2;
+    font-weight: 600;
+}
+
+.frameworkTextIntro p {
+    margin-bottom: 2rem;
+}
+
+.frameworkTextDiscover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.frameworkTextDiscover p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.frameworkTextDiscover span {
+    font-weight: 600;
+    font-size: 0.8rem;
+    position: relative;
+}
+
+.frameworkTextDiscover span::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -25px;
+    width: 1.7rem;
+    height: 2.4rem;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi43MTMiIGhlaWdodD0iMjMuNzM0Ij48ZyBkYXRhLW5hbWU9IkdydXBvIDQwMjAiPjxnIGRhdGEtbmFtZT0iR3J1cG8gMzg2NiI+PGcgZGF0YS1uYW1lPSJHcnVwbyAzODY1Ij48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMjkzIiBkPSJNOC4zNTcgMEE4LjQzMiA4LjQzMiAwIDAwMCA4LjQ4OHY2Ljc1OWE4LjM1NyA4LjM1NyAwIDEwMTYuNzEzLjAyNlY4LjQ4OEE4LjQzMyA4LjQzMyAwIDAwOC4zNTcgMHptNi43ODUgMTUuMjcyYTYuNzg2IDYuNzg2IDAgMTEtMTMuNTctLjAyNlY4LjQ4OGE2Ljc4NiA2Ljc4NiAwIDExMTMuNTcgMHoiIGZpbGw9IiNmZmYiLz48L2c+PC9nPjxnIGRhdGEtbmFtZT0iR3J1cG8gMzg2OCI+PGcgZGF0YS1uYW1lPSJHcnVwbyAzODY3Ij48cGF0aCBkYXRhLW5hbWU9IkNhbWluaG8gMjk0IiBkPSJNOC4zNTcgNi40OTdhLjc4Ni43ODYgMCAwMC0uNzg2Ljc4NnYyLjc1MWEuNzg2Ljc4NiAwIDAwMS41NzIgMFY3LjI4M2EuNzg2Ljc4NiAwIDAwLS43ODYtLjc4NnoiIGZpbGw9IiNmZmYiLz48L2c+PC9nPjwvZz48L3N2Zz4=');
+    background-repeat: no-repeat;
+}
+
+/* Bloco de Business Units */
+.secondaryTitle {
+    color: #f1c233;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.frameworkBusinessUnits ul {
+    margin: 1.8rem 0 0;
+    padding: 0;
+}
+
+.frameworkBusinessUnits ul li {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.frameworkDesktop {
+    width: 50%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Círculos */
+.frameworkCircle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+}
+
+.frameworkCircle p {
+    max-width: 10rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.frameworkCircleOne {
+    background-color: #b7b7b7;
+    width: 38rem;
+    position: relative;
+}
+
+.frameworkCircleOne:hover {
+    background-color: #de702f;
+}
+
+.frameworkCircleTwo {
+    background-color: #999999;
+    width: 32rem;
+    transform: rotate(-90deg);
+}
+
+.frameworkCircleThree {
+    background-color: #666666;
+    width: 26rem;
+}
+
+.frameworkCircleThree:hover {
+    background-color: #953764;
+}
+
+.frameworkCircleFour {
+    background-color: #434343;
+    width: 20rem;
+    transform: rotate(-90deg);
+}
+
+.frameworkCircleFour p:first-child {
+    position: relative;
+    top: -5px;
+}
+
+.frameworkCircleFour:hover {
+    background-color: #2680eb;
+}
+
+.frameworkCircleFive {
+    background-color: #000000;
+    width: 14rem;
+}
+
+.frameworkCircleFive:hover {
+    background-color: #f1c233;
+    color: #000;
+}
+
+.frameworkCircleSix {
+    background-color: #f1c233;
+    color: #000;
+    justify-content: center;
+    width: 7rem;
+}
+
+/* Bloco condicional (visível ao passar o mouse sobre os círculos) */
+.frameworkInfo {
+    display: block;
+    margin-top: 4rem;
+}
+
+.frameworkTitle {
+    padding-bottom: 2rem;
+    position: relative;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.frameworkTitle::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.frameworkOneTitle {
+    color: #de702f;
+    border-bottom-color: #de702f;
+    border-bottom: 2px solid #de702f;
+}
+
+.frameworkOneTitle::after {
+    background-color: #de702f;
+}
+
+.frameworkThreeTitle {
+    color: #953764;
+    border-bottom-color: #953764;
+    border-bottom: 2px solid #953764;
+}
+
+.frameworkThreeTitle::after {
+    background-color: #953764;
+}
+
+.frameworkFourTitle {
+    color: #3385f1;
+    border-bottom-color: #3385f1;
+    border-bottom: 2px solid #3385f1;
+}
+
+.frameworkFourTitle::after {
+    background-color: #3385f1;
+}
+
+.frameworkFiveTitle {
+    color: #f1c233;
+    border-bottom-color: #f1c233;
+    border-bottom: 2px solid #f1c233;
+}
+
+.frameworkFiveTitle::after {
+    background-color: #f1c233;
+}
+
+/* Texto dos blocos condicionais */
+.frameworkText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frameworkText div:not(:last-child) {
+    margin-right: 2rem;
+    max-width: 12rem;
+}
+
+.frameworkTopic {
+    font-size: 1.2rem;
+    height: 2rem;
+}
+
+.frameworkText ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.frameworkText ul li {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
