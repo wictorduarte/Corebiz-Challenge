@@ -61,7 +61,7 @@
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
-            "text": "[serviços](/services)",
+            "text": "[serviços](/servicos)",
             "font": "t-heading-5"
         }
     },
