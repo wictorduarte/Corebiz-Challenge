@@ -1,0 +1,15 @@
+{
+  "section": "customer",
+  "titleId": "admin-leads.navigation.label",
+  "searchKeyWordsHelpers": "admin-leads.navigation.search.kws",
+  "subSectionItems": [
+    {
+      "labelId": "admin-leads.navigation.prospect",
+      "path": "/admin/leads/prospect"
+    },
+    {
+      "labelId": "admin-leads.navigation.customer",
+      "path": "/admin/leads/customer"
+    }
+  ]
+}
