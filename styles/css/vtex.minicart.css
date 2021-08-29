@@ -1,0 +1,19 @@
+.minicartQuantityBadge {
+    background: #f1c233;
+    color: #000;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+.openIconContainer--minicart :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.cartIcon--minicart {
+    color: #fff;
+    transition: color linear 0.2s;
+}
+
+.cartIcon--minicart:hover {
+    color: rgba(255, 255, 255, 0.3);
+}
