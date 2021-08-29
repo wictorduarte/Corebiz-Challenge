@@ -1,6 +1,7 @@
 import React, { FC, useState, useEffect } from 'react';
 import { Layout, PageBlock } from 'vtex.styleguide';
 import axios, { AxiosResponse } from 'axios';
+import styles from './styles.css';
 
 interface LeadData {
   id: string;
@@ -31,11 +32,13 @@ const AdminLeadProspect: FC = () => {
         <h1>Lista de Prospectos</h1>
         {leads.map(lead => (
           !lead.isClient &&
-            <article key={lead.id}>
-              <h2>Nome: {lead.nome}</h2>
-              <p><strong>E-mail:</strong> {lead.email}</p>
-              <p><strong>Telefone:</strong> {lead.telefone}</p>
-              <p><strong>Data de Criação:</strong> {new Date(lead.createdAt).toLocaleString('pt-BR')}</p>
+            <article key={lead.id} className={styles.vtexAdminArticle}>
+              <h2>{lead.nome}</h2>
+              <div className={styles.details}>
+                <p><strong>E-mail</strong>{lead.email}</p>
+                <p><strong>Telefone</strong>{lead.telefone}</p>
+                <p><strong>Data de Criação</strong>{new Date(lead.createdAt).toLocaleString('pt-BR')}</p>
+              </div>
             </article>
         ))}
       </PageBlock>
