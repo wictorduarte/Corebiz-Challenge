@@ -23,7 +23,6 @@
             "flex-layout.col#spacer",
             "rich-text#about-us",
             "rich-text#services",
-            "rich-text#contact",
             "minicart.v2"
         ]
     },
