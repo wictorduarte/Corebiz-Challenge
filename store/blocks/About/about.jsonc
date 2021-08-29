@@ -1,97 +1,125 @@
 {
-  "store.custom#acorebiz": {
-    "blocks": [
-      "responsive-layout.desktop#about"
-      //   "responsive-layout.mobile#about"
-    ]
-  },
-  "responsive-layout.desktop#about": {
-    "children": ["flex-layout.row#institucional-container", "flex-layout.row#who-container"]
-  },
+    "store.custom#acorebiz": {
+        "blocks": ["responsive-layout.desktop#about"]
+    },
+    "responsive-layout.desktop#about": {
+        "children": [
+            "flex-layout.row#institucional-container",
+            "flex-layout.row#vision-values-container",
+            "corebiz-frameworks"
+        ]
+    },
 
-  //  Seção inicial
-  "flex-layout.row#institucional-container": {
-    "children": [
-      "flex-layout.col#corebiz-texto",
-      "flex-layout.col#corebiz-imagem"
-    ],
-    "props": {
-        "blockClass": "corebiz-institucional-container"
+    //  Seção inicial
+    "flex-layout.row#institucional-container": {
+        "children": [
+            "flex-layout.col#corebiz-texto",
+            "flex-layout.col#corebiz-imagem"
+        ],
+        "props": {
+            "blockClass": "corebiz-institucional-container"
+        }
+    },
+    "flex-layout.col#corebiz-texto": {
+        "children": ["rich-text#corebiz-titulo", "rich-text#corebiz-descricao"],
+        "props": {
+            "width": "45%"
+        }
+    },
+    "rich-text#corebiz-titulo": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "left",
+            "text": "a corebiz",
+            "blockClass": "corebiz-titulo-institucional"
+        }
+    },
+    "rich-text#corebiz-descricao": {
+        "props": {
+            "textAlignment": "left",
+            "textPosition": "center",
+            "text": "conheça um pouco de nossa\nhistória, nosso crescimento e\nnossa cultura.",
+            "blockClass": "corebiz-descricao-institucional"
+        }
+    },
+    "flex-layout.col#corebiz-imagem": {
+        "children": ["image#corebiz-local"],
+        "props": {
+            "width": "55%",
+            "blockClass": "corebiz-imagem-institucional-container"
+        }
+    },
+    "image#corebiz-local": {
+        "props": {
+            "src": "assets/images/institucional/institucional-banner.png",
+            "blockClass": "imagem-institucional"
+        }
+    },
+
+    // Seção de Visão e Valores
+    "flex-layout.row#vision-values-container": {
+        "props": {
+            "blockClass": "vision-values-container"
+        },
+        "children": [
+            "flex-layout.col#vision-container",
+            "flex-layout.col#values-container"
+        ]
+    },
+    "flex-layout.col#vision-container": {
+        "props": {
+            "blockClass": "vision-container"
+        },
+        "children": ["stack-layout#vision-stack"]
+    },
+    "stack-layout#vision-stack": {
+        "props": {
+            "blockClass": "vision-stack"
+        },
+        "children": ["image#vision-bg", "flex-layout.col#vision-text-container"]
+    },
+    "flex-layout.col#vision-text-container": {
+        "props": {
+            "blockClass": "vision-text-container",
+            "preventVerticalStretch": true
+        },
+        "children": ["rich-text#vision-title", "rich-text#vision-text"]
+    },
+    "image#vision-bg": {
+        "props": {
+            "blockClass": "vision-bg",
+            "src": "assets/images/institucional/valores.png"
+        }
+    },
+    "rich-text#vision-title": {
+        "props": {
+            "blockClass": "vision-values-title",
+            "text": "vision"
+        }
+    },
+    "rich-text#vision-text": {
+        "props": {
+            "blockClass": "vision-text",
+            "text": "To be the largest company of experience, technology and marketing for commerce in Latin America."
+        }
+    },
+    "flex-layout.col#values-container": {
+        "props": {
+            "blockClass": "values-container",
+            "preventVerticalStretch": true
+        },
+        "children": ["rich-text#values-title", "rich-text#values-text"]
+    },
+    "rich-text#values-title": {
+        "props": {
+            "blockClass": "vision-values-title",
+            "text": "values"
+        }
+    },
+    "rich-text#values-text": {
+        "props": {
+            "blockClass": "values-text",
+            "text": ".determination<br />.innovation<br />.courage<br />.agility<br />.collaboration"
+        }
     }
-  },
-  "flex-layout.col#corebiz-texto": {
-    "children": [
-        "rich-text#corebiz-titulo",
-        "rich-text#corebiz-descricao"
-    ],
-    "props": {
-        "width": "45%"
-    }
-  },
-  "rich-text#corebiz-titulo": {
-    "props": {
-      "textAlignment": "left",
-      "textPosition": "left",
-      "text": "a corebiz",
-      "blockClass": "corebiz-titulo-institucional"
-    }
-  },
-  "rich-text#corebiz-descricao": {
-    "props": {
-      "textAlignment": "left",
-      "textPosition": "center",
-      "text": "conheça um pouco de nossa\nhistória, nosso crescimento e\nnossa cultura.",
-      "blockClass": "corebiz-descricao-institucional"
-    }
-  },
-  "flex-layout.col#corebiz-imagem": {
-    "children": [
-      "image#corebiz-local"
-    ],
-    "props": {
-        "width": "55%",
-        "blockClass": "corebiz-imagem-institucional-container"
-    }
-  },
-  "image#corebiz-local": {
-    "props": {
-      "src": "assets/images/institucional/institucional-banner.png",
-      "blockClass": "imagem-institucional"
-    }
-  },
-  // Seção "Who are we"
-  "flex-layout.row#who-container": {
-    "children": [
-      "flex-layout.row#who-texto",
-      "flex-layout.col#corebiz-imagem"
-    ],
-    "props": {
-        "blockClass": "corebiz-who-container"
-    }
-  },
-  "flex-layout.row#who-texto": {
-    "children": [
-        "rich-text#who-titulo",
-        "rich-text#who-descricao"
-    ],
-    "props": {
-      "blockClass": "corebiz-who-textos"
-  }
-},
-"rich-text#who-titulo": {
-  "props": {
-    "textAlignment": "left",
-    "textPosition": "left",
-    "text": "a corebiz",
-    "blockClass": "corebiz-titulo-institucional"
-  }
-},
-"rich-text#who-descricao": {
-  "props": {
-    "textAlignment": "left",
-    "textPosition": "center",
-    "text": "conheça um pouco de nossa\nhistória, nosso crescimento e\nnossa cultura.",
-    "blockClass": "corebiz-descricao-institucional"
-  }
-}
 }

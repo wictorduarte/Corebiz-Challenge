@@ -329,17 +329,50 @@
 /* Institucional */
 .paragraph--corebiz-titulo-institucional {
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 5rem;
-    font-weight: 600;
+    font-weight: 800;
     margin: 0 0 3rem -2px;
     padding-top: 13rem;
 }
 
 .paragraph--corebiz-descricao-institucional {
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 1rem;
     font-weight: 500;
     margin: -42px 0 0 35px;
+}
+
+.paragraph--vision-values-title {
+    color: #f1c233;
+    font-family: 'Manrope', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.wrapper--vision-text,
+.wrapper--values-text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.wrapper--vision-text {
+    color: #fff;
+    max-width: 600px;
+}
+
+.wrapper--values-text {
+    color: #000;
+}
+
+.paragraph--vision-text {
+    margin: 4rem 0 0 4.5rem;
+    line-height: 1.2;
+}
+
+.paragraph--values-text {
+    line-height: 1.2;
 }

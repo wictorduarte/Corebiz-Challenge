@@ -140,11 +140,32 @@
 /* Institucional */
 .flexRow--corebiz-institucional-container {
     background-color: #000;
-    margin-top: -180px;
+    margin-top: -110px;
+    margin-bottom: 200px;
+    height: 600px;
+    justify-content: space-between;
 }
 
-.flexCol--corebiz-imagem-institucional-container {
-    height: 45rem;
-    z-index: 10;
+/* Sobre - Visão e Valores */
+.flexRow--vision-values-container {
+    padding-bottom: 5rem;
+    background-color: #f5f5f5;
 }
-/* Fim do Institucional */
+
+.flexRowContent--vision-values-container .stretchChildrenWidth:first-child {
+    width: auto !important;
+}
+
+.flexCol--vision-text-container {
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.flexCol--values-container {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexColChild--values-container:last-child {
+    width: 28%;
+}

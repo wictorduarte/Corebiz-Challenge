@@ -10,6 +10,7 @@
     margin-top: -105px;
     overflow: hidden;
 }
+
 /* Home - Seção 4 */
 .stackContainer--section-four-container {
     background-color: #000;
@@ -19,4 +20,9 @@
 
 .stackItem--section-four-container--section-four-bg {
     align-items: start;
+}
+
+/* Sobre - Visão e Valores */
+.stackItem--vision-stack {
+    margin-top: -5rem;
 }

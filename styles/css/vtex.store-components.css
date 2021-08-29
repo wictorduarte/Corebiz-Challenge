@@ -134,6 +134,11 @@
     opacity: 0.8;
 }
 
+/* Sobre - Visão e Valores */
+.imageElement--vision-bg {
+    max-width: 750px;
+}
+
 /* Footer - Ícones de redes sociais */
 .imageElementLink--footer-image {
     padding-right: 0.5rem;
