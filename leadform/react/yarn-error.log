@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, open 'C:\Users\AnaSilvia\Gama\d04\Corebiz-Challenge\leadform\react\node_modules\.bin\jest.cmd'
+  Error: EPERM: operation not permitted, open 'C:\Users\AnaSilvia\Gama\d05\Corebiz-Challenge\leadform\react\node_modules\.bin\jest.cmd'
 
 npm manifest: 
   {
