@@ -15,7 +15,7 @@
     "rich-text#modal-access": {
         "props": {
             "blockClass": "modal-access-leads",
-            "text": "quer receber nossas melhores ofertas?",
+            "text": "Receber as melhores ofertas!",
             "textAligment": "CENTER"
         }
     },

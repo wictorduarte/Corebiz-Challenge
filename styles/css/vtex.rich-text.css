@@ -16,6 +16,10 @@
     color: white;
     text-decoration: none;
     padding-right: 50px;
+    transition: color linear 0.2s;
+}
+.link:hover {
+    color: rgba(255,255,255,0.3);
 }
 
 /* Home - Seção 1 - Título */
@@ -79,16 +83,19 @@
 
 /* Home - Seção 1 - Modal*/
 .wrapper--modal-access-leads {
-    width: 300px;
+    width: 100%;
+    max-width: 320px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 1);
+    letter-spacing: 0.5px;
+    background-color: rgba(0, 0, 0, 0.85);
     font-family: 'Manrope', sans-serif;
     font-size: 15px;
     color: #f1c233;
-    border: 1px solid #fff;
-    border-radius: 5px;
+    border: 1px solid #f1c233;
+    
 }
 
 .wrapper--leads-header-title {
