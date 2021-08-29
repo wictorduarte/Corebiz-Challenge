@@ -74,7 +74,11 @@ const CorebizFramework = () => {
           <p>Data Driven<br />Experience</p>
         </div>
 
-        <div className={[styles.frameworkCircle, styles.frameworkCircleSix].join(" ")}>
+        <div
+          className={[styles.frameworkCircle, styles.frameworkCircleSix].join(" ")}
+          onMouseEnter={() => handleHover(5)}
+          onMouseLeave={() => { handleHover(0); setHovered(false) }}
+        >
           <p>consulting</p>
         </div>
       </div>
