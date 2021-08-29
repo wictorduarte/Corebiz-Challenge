@@ -1,0 +1,10 @@
+{
+  "admin.app.leads-prospect": {
+    "component": "AdminLeadProspect",
+    "path": "/admin/app/leads/prospect"
+  },
+  "admin.app.leads-customer": {
+    "component": "AdminLeadCustomer",
+    "path": "/admin/app/leads/customer"
+  }
+}
