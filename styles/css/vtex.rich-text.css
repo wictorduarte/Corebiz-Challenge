@@ -9,6 +9,10 @@
     padding-right: 40px;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* Navbar */
 .wrapper--header-link .link {
     font-size: 1.1rem;

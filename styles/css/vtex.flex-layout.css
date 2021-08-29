@@ -76,6 +76,7 @@
 .flexCol--news-info-column {
     background-color: transparent;
     display: grid;
+    padding-right: 2.5rem;
 }
 
 .flexCol--news-block {
