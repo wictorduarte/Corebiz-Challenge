@@ -49,6 +49,7 @@
 
     "rich-text#about-us": {
         "props": {
+            "blockClass": "header-link",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": "[a corebiz](/about)",
@@ -58,6 +59,7 @@
 
     "rich-text#services": {
         "props": {
+            "blockClass": "header-link",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "text": "[serviços](/servicos)",
@@ -75,14 +77,14 @@
         }
     },
     "minicart.v2": {
-		"props": {
-			"quantityDisplay": "always",
-			"maxDrawerWidth": 585,
-			"blockClass": "minicart",
-			"customPixelEventName": "addToCart"
-		},
-		"children": ["minicart-base-content"]
-	},
+        "props": {
+            "quantityDisplay": "always",
+            "maxDrawerWidth": 585,
+            "blockClass": "minicart",
+            "customPixelEventName": "addToCart"
+        },
+        "children": ["minicart-base-content"]
+    },
     //Area Mobile
     "header-layout.mobile": {
         "children": ["sticky-layout#mobile"]

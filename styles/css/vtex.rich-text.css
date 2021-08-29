@@ -10,7 +10,7 @@
 }
 
 /* Navbar */
-.link {
+.wrapper--header-link .link {
     font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -18,8 +18,8 @@
     padding-right: 50px;
     transition: color linear 0.2s;
 }
-.link:hover {
-    color: rgba(255,255,255,0.3);
+.wrapper--header-link .link:hover {
+    color: rgba(255, 255, 255, 0.3);
 }
 
 /* Home - Seção 1 - Título */
@@ -95,7 +95,6 @@
     font-size: 15px;
     color: #f1c233;
     border: 1px solid #f1c233;
-    
 }
 
 .wrapper--leads-header-title {
