@@ -2,9 +2,12 @@
   "store.product": {
     "children": [      
       "flex-layout.row#main"
-
-   ]
+   ],
+   "parent": {
+    "header": "header#product-header"
+   }
   },
+
   "flex-layout.row#main": {
     "props": {
       "marginTop": 6
@@ -29,7 +32,9 @@
   },
   "add-to-cart-button": {
 		"props": {
-			"text": "Adicionar ao Carrinho"
+			"text": "Adicionar ao Carrinho",
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button"
 		}
 	}
 }
