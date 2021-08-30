@@ -14,7 +14,7 @@
 		}
 	},
 
-	"drawer-close-button#minciart-close-button": {
+	"drawer-close-button#minicart-close-button": {
 		"props": {
 			"blockClass": "minicart-close-button"
 		}

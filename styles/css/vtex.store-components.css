@@ -2,11 +2,6 @@
     object-fit: cover;
 }
 
-/* .imageElement--imagem-institucional {
-.logoContainer {
-    background: rgba(0, 0, 0, 0.59);
-}
-} */
 .logoLink {
     background: rgba(0, 0, 0, 1);
 }
@@ -68,23 +63,18 @@
 }
 
 /* Home - Seção 4 - Infocards */
+
 .infoCardContainer--infocard-epoca {
     background-color: #ff6e60;
-    margin-right: 3rem;
-}
-
-.infoCardContainer--infocard-msn {
-    background-color: #91a7d0;
-}
-
-.infoCardContainer--infocard-epoca {
     background-size: 100px !important;
     background-position: 2rem 2rem;
+    margin-right: 3rem;
     width: 310px;
     border: none;
 }
 
 .infoCardContainer--infocard-msn {
+    background-color: #91a7d0;
     background-size: 80px !important;
     background-position: 2rem 1.7rem;
     width: 310px;
@@ -121,6 +111,8 @@
     border: 1px solid #fff;
     border-radius: 0;
     text-transform: lowercase;
+    color: #fff;
+    font-size: 0.9rem;
 }
 
 /* Home - Seção 5 - Miniaturas de notícias */
@@ -160,26 +152,19 @@
 }
 
 .productBrand--product-page-name {
-    font-family: 'Manrope', sans-serif;
     font-weight: 800;
-}
-
-.sellingPrice {
-    font-family: 'Manrope', sans-serif;
 }
 
 .shippingContainer :global(.vtex-address-form),
 .shippingContainer :global(.vtex-button) {
-    padding: 0.5rem;
-    font-family: 'Manrope', sans-serif;
+    padding: 0.4rem;
     font-weight: 600;
     margin: auto;
 }
+
 .shippingContainer :global(.vtex-button) {
-    background-color: #f1c233;
-    border: 2px solid #000;
-    color: #000;
-    border-radius: 0;
+    font-size: 1rem;
+    text-transform: lowercase;
 }
 
 /* Footer - Ícones de redes sociais */

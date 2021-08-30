@@ -196,11 +196,6 @@
 }
 
 .flexRowContent--buyButton :global(.vtex-button) {
-    background-color: #f1c233;
-    border: 2px solid #000;
-    color: #000;
-    border-radius: 0;
-    font-family: 'Manrope', sans-serif;
     text-transform: lowercase;
     font-weight: 800;
 }
