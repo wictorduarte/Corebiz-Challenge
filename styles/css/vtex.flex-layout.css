@@ -153,6 +153,11 @@
     background-color: #f5f5f5;
 }
 
+.flexRow--vision-values-container
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
 .flexRowContent--vision-values-container .stretchChildrenWidth:first-child {
     width: auto !important;
 }
