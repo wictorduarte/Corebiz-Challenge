@@ -81,7 +81,10 @@
             "quantityDisplay": "always",
             "maxDrawerWidth": 585,
             "blockClass": "minicart",
-            "customPixelEventName": "addToCart"
+            "customPixelEventName": "addToCart",
+            "customPixelEventId": "add-to-cart-button",
+            "variation": "drawer",
+            "drawerSlideDirection": "rightToLeft"
         },
         "children": ["minicart-base-content"]
     },
@@ -110,5 +113,39 @@
             "rich-text#services",
             "rich-text#contact"
         ]
+    },
+ // Product Header
+ "header#product-header": {
+    "blocks": ["header-layout.desktop#product", "header-layout.mobile#product"]
+},
+  "header-layout.desktop#product": {
+    "children": ["flex-layout.row#desktop-product"]
+},
+"header-layout.mobile#product": {
+    "children": ["sticky-layout#mobile-product"]
+},
+"sticky-layout#mobile-product": {
+    "children": ["flex-layout.row#mobile"],
+    "props": {
+        "blockClass": "header-product-mobile"
     }
+},
+"flex-layout.row#desktop-product": {
+"props": {
+    "horizontalAlign": "center",
+    "verticalAlign": "center",
+    "preventHorizontalStretch": true,
+    "preventVerticalStretch": true,
+    "fullWidth": true,
+    "colSizing": "equal",
+    "blockClass": ["header-product", "side-header"]
+},
+"children": [
+    "flex-layout.col#logo-desktop",
+    "flex-layout.col#spacer",
+    "rich-text#about-us",
+    "rich-text#services",
+    "minicart.v2"
+]
+}
 }
