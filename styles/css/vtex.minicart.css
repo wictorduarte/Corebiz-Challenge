@@ -36,7 +36,13 @@
 	width: 70%;
 	border: none;
 	border-radius: 2px;
+	background-color: #000000;
+	color: #f1c233;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover {
 	background-color: #f1c233;
+	color: #000000;
 }
 /* End checkout button */
 
