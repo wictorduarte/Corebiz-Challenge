@@ -1,3 +1,4 @@
+/* Minicart Icon */
 .minicartQuantityBadge {
     background: #f1c233;
     color: #000;
@@ -21,8 +22,8 @@
 .minicartProductListContainer {
 	padding: 1.25rem;
 }
+/* End of Minicart Body */
 
-/* End of minicar body */
 /* Checkout buttton */
 .minicartCheckoutButton {
 	height: 3rem;
@@ -37,9 +38,8 @@
 	border-radius: 2px;
 	background-color: #f1c233;
 }
+/* End checkout button */
 
-
-/* End checkou buttton */
 /* Product list container */
 .minicartProductListContainer {
 	padding: 1.25rem;
@@ -57,8 +57,8 @@ width: 120px !important;
         font-weight: 500;
         }
 /* End product list container */
-/* General */
 
+/* General */
 .drawerContent {
 	height: 100vh;
 }
@@ -81,7 +81,6 @@ width: 120px !important;
 	background-color: rgba(0, 0, 0, 0.5) !important;
 	opacity: 1 !important;
 }
-
 /* End of general */
 
 @media screen and (max-width: 1024px) {
@@ -117,3 +116,4 @@ width: 120px !important;
 		padding-top: 1rem;
 	}
 }
+

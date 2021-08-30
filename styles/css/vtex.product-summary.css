@@ -1,7 +1,13 @@
+.element {
+    padding-bottom: 0px;
+}
+
 .nameContainer {
+    padding: 10px;
     font-size: 700;
 }
 
 .priceContainer {
-    padding: 10px 0 5px;
+    padding: 5px 0 5px;
 }
+
