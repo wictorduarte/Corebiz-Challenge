@@ -147,6 +147,11 @@
     justify-content: space-between;
 }
 
+.flexRow--corebiz-institucional-container
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
 /* Sobre - Visão e Valores */
 .flexRow--vision-values-container {
     padding-bottom: 5rem;
