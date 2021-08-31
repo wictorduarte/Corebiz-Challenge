@@ -8,11 +8,9 @@ export async function omsHook(ctx: Context, next: () => Promise<any>) {
     console.log(OrderId)
 
     const { clientProfileData: { document: userId, email: email } } = await ctx.clients.oms.order(OrderId)
-
     console.log(userId)
+
     const userEmail = email.split("-", 1)[0];
-    console.log(userEmail);
-    console.log(typeof userEmail);
 
     ctx.body = 'OK'
     ctx.status = 200
@@ -21,10 +19,10 @@ export async function omsHook(ctx: Context, next: () => Promise<any>) {
     await axios.get(
       `https://se3l85r4x5.execute-api.us-east-2.amazonaws.com/dev/leads`
     ).then((response) => {
-      response.data.forEach((item: any) => {
-        if (userEmail === item.email) {
-          console.log(`Found prospect: ${item.email}`);
-          newClient.push(item);
+      response.data.forEach((lead: any) => {
+        if (userEmail === lead.email) {
+          console.log(`Found prospect: ${lead.email}`);
+          newClient.push(lead);
           newClient[0].isClient = true;
           console.log('Prospect saved to array');
           return newClient;
