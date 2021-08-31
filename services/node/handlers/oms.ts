@@ -4,7 +4,6 @@ import axios from 'axios';
 export async function omsHook(ctx: Context, next: () => Promise<any>) {
   try {
     const { OrderId } = await json(ctx.req)
-
     console.log(OrderId)
 
     const { clientProfileData: { document: userId, email: email } } = await ctx.clients.oms.order(OrderId)
