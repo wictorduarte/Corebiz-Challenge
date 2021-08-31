@@ -1,0 +1,66 @@
+service: sls
+frameworkVersion: '2'
+
+custom:
+  settings:
+    LEADS_TABLE: leads
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  environment: ${self:custom.settings}
+  region: us-east-2
+  lambdaHashingVersion: 20201221
+  iamRoleStatements:
+    - Effect: 'Allow'
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource:
+        - 'arn:aws:dynamodb:${self:provider.region}:*:table/${self:custom.settings.LEADS_TABLE}'
+
+functions:
+  createLead:
+    handler: handler.createLead
+    events:
+      - http:
+          path: /leads
+          method: post
+  getLeads:
+    handler: handler.getLeads
+    events:
+      - http:
+          path: /leads
+          method: get
+  updateLead:
+    handler: handler.updateLead
+    events:
+      - http:
+          path: /leads/{id}
+          method: put
+  deleteLead:
+    handler: handler.deleteLead
+    events:
+      - http:
+          path: /leads/{id}
+          method: delete
+
+resources:
+  Resources:
+    LeadsTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: 'id'
+            AttributeType: 'S'
+        KeySchema:
+          - AttributeName: 'id'
+            KeyType: 'HASH'
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ${self:custom.settings.LEADS_TABLE}
