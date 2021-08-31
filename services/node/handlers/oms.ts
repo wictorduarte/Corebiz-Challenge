@@ -1,9 +1,6 @@
 import { json } from 'co-body'
 import axios from 'axios';
-/* interface IData {
-  email: string
-}
- */
+
 export async function omsHook(ctx: Context, next: () => Promise<any>) {
   try {
     const { OrderId } = await json(ctx.req)
